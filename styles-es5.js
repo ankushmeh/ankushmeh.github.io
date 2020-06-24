@@ -527,11 +527,11 @@
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! D:\Ankush\covidAngularApp-master\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */
+    /*! D:\Ankush\Angular\Ankush\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */
     "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
 
     module.exports = __webpack_require__(
-    /*! D:\Ankush\covidAngularApp-master\src\styles.css */
+    /*! D:\Ankush\Angular\Ankush\src\styles.css */
     "./src/styles.css");
     /***/
   }
