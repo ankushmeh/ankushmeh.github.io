@@ -387,17 +387,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./data/data.component */
     "./src/app/data/data.component.ts");
 
-    var routes = [{
-      path: '',
-      redirectTo: '/charts',
-      pathMatch: 'full'
-    }, {
-      path: 'data',
-      component: _data_data_component__WEBPACK_IMPORTED_MODULE_3__["DataComponent"]
-    }, {
-      path: 'charts',
-      component: _charts_charts_component__WEBPACK_IMPORTED_MODULE_2__["ChartsComponent"]
-    }];
+    var routes = [// {path : '', redirectTo : '/charts', pathMatch:'full'},
+      // {path : 'data' , component : DataComponent},
+      // {path : 'charts' , component : ChartsComponent}
+    ];
 
     var AppRoutingModule = function AppRoutingModule() {
       _classCallCheck(this, AppRoutingModule);
@@ -509,6 +502,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! @angular/material/toolbar */
     "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+    /* harmony import */
+
+
+    var _charts_charts_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./charts/charts.component */
+    "./src/app/charts/charts.component.ts");
+    /* harmony import */
+
+
+    var _data_data_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./data/data.component */
+    "./src/app/data/data.component.ts");
+
+    function AppComponent_app_charts_11_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-charts");
+      }
+    }
+
+    function AppComponent_app_data_12_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-data");
+      }
+    }
 
     var AppComponent = /*#__PURE__*/function () {
       function AppComponent(breakpointObserver, _scroll, _route, _getdata) {
@@ -523,6 +540,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.redcolor = '#cf6679';
         this.greenColor = '#418786';
         this.totalColor = '#018716';
+        this.isChart = true;
+        this.isData = false;
         this.continents = ['Asia', 'Africa', 'Europe', 'North America', 'South America', 'Australia/Oceania', 'Antarctica'];
         this.tableColumns = ['Name', 'TotalCases', 'ActiveCases', 'Cured', 'Deaths'];
         this.moreTablesToLoad = ['India', 'United States of America'];
@@ -602,12 +621,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "goToCharts",
         value: function goToCharts() {
-          this._route.navigate(['/charts']);
+          this.isChart = true;
+          this.isData = false; // this._route.navigate(['/charts']);
         }
       }, {
         key: "goToData",
         value: function goToData() {
-          this._route.navigate(['/data']);
+          this.isChart = false;
+          this.isData = true; // this._route.navigate(['/data']);
         }
       }]);
 
@@ -632,9 +653,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.sort = _t.first);
         }
       },
-      decls: 12,
-      vars: 0,
-      consts: [[2, "background-color", "#212121"], [2, "color", "#bb86fc", "padding-left", "2vh", "padding-right", "2vh", "cursor", "pointer", 3, "click"], [1, "example-spacer"], ["aria-hidden", "false", 1, "btn", "btn-secondary"], ["src", "../assets/f6efd8c5062532705784bcd3710ad658_4570book-1080-uhd-mango-milkshake-images-clipart-pack-5226_512-512.png", 2, "height", "25px", "width", "35px"]],
+      decls: 13,
+      vars: 2,
+      consts: [[2, "background-color", "#212121"], [2, "color", "#bb86fc", "padding-left", "2vh", "padding-right", "2vh", "cursor", "pointer", 3, "click"], [1, "example-spacer"], ["aria-hidden", "false", 1, "btn", "btn-secondary"], ["src", "../assets/f6efd8c5062532705784bcd3710ad658_4570book-1080-uhd-mango-milkshake-images-clipart-pack-5226_512-512.png", 2, "height", "25px", "width", "35px"], [4, "ngIf"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-toolbar", 0);
@@ -677,10 +698,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](11, "router-outlet");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, AppComponent_app_charts_11_Template, 1, 0, "app-charts", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, AppComponent_app_data_12_Template, 1, 0, "app-data", 5);
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.isChart);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.isData);
         }
       },
-      directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__["MatToolbar"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__["MatToolbarRow"], _angular_router__WEBPACK_IMPORTED_MODULE_6__["RouterOutlet"]],
+      directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__["MatToolbar"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_8__["MatToolbarRow"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _charts_charts_component__WEBPACK_IMPORTED_MODULE_9__["ChartsComponent"], _data_data_component__WEBPACK_IMPORTED_MODULE_10__["DataComponent"]],
       styles: [".example-icon[_ngcontent-%COMP%] {\n    padding: 0 14px;\n  }\n  \n  .example-spacer[_ngcontent-%COMP%] {\n    flex: 1 1 auto;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtFQUNFO0lBQ0UsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLGNBQWM7RUFDaEIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuICAuZXhhbXBsZS1pY29uIHtcbiAgICBwYWRkaW5nOiAwIDE0cHg7XG4gIH1cbiAgXG4gIC5leGFtcGxlLXNwYWNlciB7XG4gICAgZmxleDogMSAxIGF1dG87XG4gIH1cbiJdfQ== */"]
     });
     /*@__PURE__*/
