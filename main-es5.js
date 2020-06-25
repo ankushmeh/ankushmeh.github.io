@@ -1121,15 +1121,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ChartsComponent_div_1_div_5_Template(rf, ctx) {
+    function ChartsComponent_div_1_span_2_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 25);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 26);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var newd_r8 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", newd_r8.title, "");
+      }
+    }
+
+    function ChartsComponent_div_1_div_6_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 29);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 30);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
@@ -1137,13 +1157,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 31);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h4", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h4", 32);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
 
@@ -1157,142 +1177,74 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var card_r7 = ctx.$implicit;
+        var card_r9 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", card_r7.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", card_r9.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 5, card_r7.cardNumber));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 5, card_r9.cardNumber));
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](card_r7.title);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](card_r9.title);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", card_r7.title, " Today : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 7, card_r7.deltaNumber), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", card_r9.title, " Today : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 7, card_r9.deltaNumber), "");
       }
     }
 
-    function ChartsComponent_div_1_mat_tab_group_8_Template(rf, ctx) {
+    function ChartsComponent_div_1_mat_tab_group_9_Template(rf, ctx) {
       if (rf & 1) {
-        var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        var _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab-group", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab-group", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-tab", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-tab", 34);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "span");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "canvas", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "canvas", 36);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_4_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
-
-          var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r8.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 33);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChartsComponent_div_1_mat_tab_group_8_Template_mat_tab_click_5_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_9_Template_canvas_chartClick_4_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
 
           var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-          return ctx_r10.getCuredTimeLine();
+          return ctx_r10.onChartClick($event);
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 37);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChartsComponent_div_1_mat_tab_group_9_Template_mat_tab_click_5_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
+
+          var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r12.getCuredTimeLine();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 38);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "span");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "canvas", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "canvas", 39);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_8_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
-
-          var ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r11.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 36);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 37);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "canvas", 35);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_12_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
-
-          var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r12.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataTimeLine)("labels", ctx_r3.chartLabelsTimeLine)("options", ctx_r3.chartTimeLineOptions)("legend", false);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataCuredTimeLine)("labels", ctx_r3.chartLabelsCuredTimeLine)("options", ctx_r3.chartCuredTimeLineOptions)("legend", false);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataDeathsTimeLine)("labels", ctx_r3.chartLabelsDeathsTimeLine)("options", ctx_r3.chartDeathsTimeLineOptions)("legend", false);
-      }
-    }
-
-    function ChartsComponent_div_1_div_9_Template(rf, ctx) {
-      if (rf & 1) {
-        var _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 38);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 39);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Confirmed Cases Timeline");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "canvas", 40);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_9_Template_canvas_chartClick_3_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_9_Template_canvas_chartClick_8_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
 
           var ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
@@ -1302,14 +1254,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 41);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "canvas", 39);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_9_Template_canvas_chartClick_12_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11);
+
+          var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r14.onChartClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
 
       if (rf & 2) {
         var ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataTimeLine)("labels", ctx_r4.chartLabelsTimeLine)("options", ctx_r4.chartTimeLineOptions)("legend", false);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataCuredTimeLine)("labels", ctx_r4.chartLabelsCuredTimeLine)("options", ctx_r4.chartCuredTimeLineOptions)("legend", false);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataDeathsTimeLine)("labels", ctx_r4.chartLabelsDeathsTimeLine)("options", ctx_r4.chartDeathsTimeLineOptions)("legend", false);
       }
     }
 
@@ -1317,17 +1301,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 42);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Cured Cases Timeline");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Confirmed Cases Timeline");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "canvas", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 35);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_10_Template_canvas_chartClick_3_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 44);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_10_Template_canvas_chartClick_5_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16);
 
           var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -1343,9 +1333,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r5.chartDataCuredTimeLine)("labels", ctx_r5.chartLabelsCuredTimeLine)("options", ctx_r5.chartCuredTimeLineOptions)("legend", false);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r5.chartDataTimeLine)("labels", ctx_r5.chartLabelsTimeLine)("options", ctx_r5.chartTimeLineOptions)("legend", false);
       }
     }
 
@@ -1353,17 +1343,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 1) {
         var _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 45);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Deaths Timeline");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Cured Cases Timeline");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "canvas", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 38);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_11_Template_canvas_chartClick_3_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 46);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_11_Template_canvas_chartClick_5_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18);
 
           var ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -1379,9 +1375,51 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r6.chartDataDeathsTimeLine)("labels", ctx_r6.chartLabelsDeathsTimeLine)("options", ctx_r6.chartDeathsTimeLineOptions)("legend", false);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r6.chartDataCuredTimeLine)("labels", ctx_r6.chartLabelsCuredTimeLine)("options", ctx_r6.chartCuredTimeLineOptions)("legend", false);
+      }
+    }
+
+    function ChartsComponent_div_1_div_12_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 47);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Deaths Timeline");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 41);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 46);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_12_Template_canvas_chartClick_5_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
+
+          var ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r19.onChartClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r7.chartDataDeathsTimeLine)("labels", ctx_r7.chartLabelsDeathsTimeLine)("options", ctx_r7.chartDeathsTimeLineOptions)("legend", false);
       }
     }
 
@@ -1391,39 +1429,41 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "marquee", 13);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ChartsComponent_div_1_span_2_Template, 3, 1, "span", 14);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 15);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ChartsComponent_div_1_div_5_Template, 11, 9, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ChartsComponent_div_1_div_6_Template, 11, 9, "div", 17);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 17);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ChartsComponent_div_1_mat_tab_group_8_Template, 13, 15, "mat-tab-group", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ChartsComponent_div_1_mat_tab_group_9_Template, 13, 15, "mat-tab-group", 20);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ChartsComponent_div_1_div_9_Template, 4, 5, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ChartsComponent_div_1_div_10_Template, 6, 5, "div", 21);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ChartsComponent_div_1_div_10_Template, 4, 5, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, ChartsComponent_div_1_div_11_Template, 6, 5, "div", 22);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, ChartsComponent_div_1_div_11_Template, 4, 5, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ChartsComponent_div_1_div_12_Template, 6, 5, "div", 23);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "app-news");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "app-news");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "marquee", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "marquee", 24);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1435,7 +1475,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Last Data Refresh : ", ctx_r1.refreshdate, " IST");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.filteredNews);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r1.filteredNews, " ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
@@ -1475,6 +1519,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.isFinalReady = false;
         this.isLoader = true;
         this.isData = false;
+        this.scrollAmount = 6;
         this.chartOptions = {
           responsive: true
         };
@@ -1817,6 +1862,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.getTimeLine();
           this.getCuredTimeLine();
           this.getDeathTimeLine();
+          this.getNews();
         }
       }, {
         key: "getStateCalculationForTotalCases",
@@ -1995,6 +2041,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this6.chartReadyOverall = true;
           });
         }
+      }, {
+        key: "getNews",
+        value: function getNews() {
+          var _this7 = this;
+
+          this._getdata.getCoronaVirusNews().subscribe(function (data) {
+            _this7.news = data.articles;
+            _this7.filteredNews = _this7.news.filter(function (t) {
+              return t.source.name === "Hindustan Times" || t.source.name === "The Times of India";
+            });
+            console.log(_this7.filteredNews);
+          });
+        }
+      }, {
+        key: "onHover",
+        value: function onHover(speed) {
+          console.log('hover worksd');
+          this.scrollAmount = speed;
+        }
       }]);
 
       return ChartsComponent;
@@ -2009,12 +2074,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-charts"]],
       decls: 2,
       vars: 2,
-      consts: [["style", "margin-top:50%;", 4, "ngIf"], [4, "ngIf"], [2, "margin-top", "50%"], [1, "cssload-container"], [1, "cssload-circle-1"], [1, "cssload-circle-2"], [1, "cssload-circle-3"], [1, "cssload-circle-4"], [1, "cssload-circle-5"], [1, "cssload-circle-6"], [1, "cssload-circle-7"], [1, "cssload-circle-8"], [2, "color", "white", "text-align", "center"], ["width", "100%", "direction", "left", 2, "color", "white"], [1, "divChart", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between"], ["src", "../../assets/2731265.png", 1, "imageClass", 2, "width", "11%", "max-height", "23vh", "margin-top", "25px", "margin-left", "16px"], ["class", "card border-0 cardsDiv", "style", "margin: 5vh; border-radius: 1vh;", 4, "ngFor", "ngForOf"], [1, "mainDiv", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between", "width", "100%"], [1, "tabClassForMobile", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh", "display", "none"], ["mat-align-tabs", "center", "style", "width: 100%; margin-bottom:1vh; margin-top: 1vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine border-0", "style", "width: 32%; border-style: solid; \n    background-color:#19191c ;\nborder-radius: 1vh; margin-left: 2vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%;border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; ", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%; border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; margin-right: 2vh; ", 4, "ngIf"], [1, "card", "border-0", "cardsDiv", 2, "margin", "5vh", "border-radius", "1vh"], [1, "card-body", 2, "background-color", "#19191c"], ["alt", "Card image cap", 2, "float", "right", "height", "70px", 3, "src"], [1, "card-title", 2, "color", "white"], [1, "card-text", 2, "color", "white"], [1, "card-text", 2, "color", "#989271"], ["mat-align-tabs", "center", 2, "width", "100%", "margin-bottom", "1vh", "margin-top", "1vh"], ["label", "Confirmed", 2, "color", "white"], ["id", "chartjs-tooltip", 2, "width", "20vh", "height", "2vh", "color", "white"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Cured", 3, "click"], ["id", "chartjs-tooltip-cured", 2, "width", "20vh", "height", "2vh", "color", "white"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Deaths"], ["id", "chartjs-tooltip-deaths", 2, "width", "20vh", "height", "2vh", "color", "white"], ["id", "hideTimeline", 1, "timeLine", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh"], [2, "text-align", "center", "color", "#8a77fc"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-right", "2vh"]],
+      consts: [["style", "margin-top:50%;", 4, "ngIf"], [4, "ngIf"], [2, "margin-top", "50%"], [1, "cssload-container"], [1, "cssload-circle-1"], [1, "cssload-circle-2"], [1, "cssload-circle-3"], [1, "cssload-circle-4"], [1, "cssload-circle-5"], [1, "cssload-circle-6"], [1, "cssload-circle-7"], [1, "cssload-circle-8"], [2, "color", "white", "text-align", "center"], ["id", "hoverToStop", "width", "100%", "direction", "left", 2, "color", "white"], ["style", "cursor: pointer;", 4, "ngFor", "ngForOf"], [1, "divChart", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between"], ["src", "../../assets/2731265.png", 1, "imageClass", 2, "width", "11%", "max-height", "23vh", "margin-top", "25px", "margin-left", "16px"], ["id", "chartPageCards", "class", "card border-0 cardsDiv", "style", "margin: 5vh; border-radius: 1vh;", 4, "ngFor", "ngForOf"], [1, "mainDiv", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between", "width", "100%"], [1, "tabClassForMobile", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh", "display", "none"], ["mat-align-tabs", "center", "style", "width: 100%; margin-bottom:1vh; margin-top: 1vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine border-0", "style", "width: 32%; border-style: solid; \n    background-color:#19191c ;\nborder-radius: 1vh; margin-left: 2vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%;border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; ", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%; border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; margin-right: 2vh; ", 4, "ngIf"], ["width", "100%", "direction", "left", 2, "color", "white"], [2, "cursor", "pointer"], ["src", "../../assets/icons8-dot-48.png", 2, "width", "4vh"], ["id", "chartPageCards", 1, "card", "border-0", "cardsDiv", 2, "margin", "5vh", "border-radius", "1vh"], [1, "card-body", 2, "background-color", "#19191c"], ["alt", "Card image cap", 2, "float", "right", "height", "70px", 3, "src"], [1, "card-title", 2, "color", "white"], [1, "card-text", 2, "color", "white"], [1, "card-text", 2, "color", "#989271"], ["mat-align-tabs", "center", 2, "width", "100%", "margin-bottom", "1vh", "margin-top", "1vh"], ["label", "Confirmed", 2, "color", "white"], ["id", "chartjs-tooltip", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Cured", 3, "click"], ["id", "chartjs-tooltip-cured", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Deaths"], ["id", "chartjs-tooltip-deaths", 2, "width", "auto", "height", "2vh", "color", "white"], ["id", "hideTimeline", 1, "timeLine", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh"], [2, "text-align", "center", "color", "#8a77fc"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-right", "2vh"]],
       template: function ChartsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ChartsComponent_div_0_Template, 12, 0, "div", 0);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ChartsComponent_div_1_Template, 15, 7, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ChartsComponent_div_1_Template, 16, 8, "div", 1);
         }
 
         if (rf & 2) {
@@ -2027,7 +2092,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _news_news_component__WEBPACK_IMPORTED_MODULE_3__["NewsComponent"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_4__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_4__["MatTab"], ng2_charts__WEBPACK_IMPORTED_MODULE_5__["BaseChartDirective"]],
       pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DecimalPipe"]],
-      styles: [".info-box[_ngcontent-%COMP%]{\ndisplay : flex !important;  \nflex-direction: column !important;\njustify-content: space-between !important;\nmargin-top: 10px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar {\n    width: 5px;\n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n    background: #19191c; \n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n    background: #8a77fc; \n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n    background: #555; \n  }\n\n.mat-row[_ngcontent-%COMP%]:nth-child(even){\n    background-color:#121212;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%] {\n        color: white;\n    }\n\n.card[_ngcontent-%COMP%]   border-0[_ngcontent-%COMP%]   cardsDiv[_ngcontent-%COMP%]{\n  width: 15rem;\n}\n\n  .mat-tab-label .mat-tab-label-content {\n  color:white;\n  font-weight: 500;\n  }\n\n.mat-tab-label[_ngcontent-%COMP%]{\n  color:white;\n  font-weight: 700;\n}\n\n.mat-row[_ngcontent-%COMP%]:nth-child(odd){\n    background-color:#212121;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%], .mat-header-cell[_ngcontent-%COMP%] {\n     \n      word-wrap: break-word;\n    \n    }\n\n.example-container[_ngcontent-%COMP%] {\n        display: flex;\n        flex-direction:column;\n        height: 70vh;   \n        position: relative;    \n        \n        margin-left: 1vh;\n        margin-right: 1vh;\n        margin-bottom:10px;\n      }\n\n.matt[_ngcontent-%COMP%]{\n      color: white;\n      background-color: #212121;      \n      margin-top:2px;\n      margin-left: 5px;\n      margin-right: 5px;\n      height: 20%;\n  }\n\n@media only screen and (max-width: 768px) {\n    \n    [class=\"card\"][_ngcontent-%COMP%]{\n      width: 90%;\n      margin-left: 5%;\n      margin-right: 5%;\n      \n    }\n\n    [class=\"divChart\"][_ngcontent-%COMP%]{\n        display: inline !important;\n        flex-direction: initial !important;\n        justify-content: center !important;\n    }\n\n    [class=\"card border-0 cardsDiv\"][_ngcontent-%COMP%]{\n        width: 80% !important;\n        margin:0vh important;\n    }\n\n    [class=\"imageClass\"][_ngcontent-%COMP%]{\n        display:block;\n    margin:0px;\n    width: 25% !important;\n    max-height: auto;\n    margin-top: 2vh !important;\n    margin-left: 37% !important;\n    }\n\n    [class=\"tabClassForMobile\"][_ngcontent-%COMP%]{\n      display: inherit !important;\n      margin-left: 1vh !important ;\n      margin-right: 1vh !important ;\n      width: auto !important;\n      height: auto !important;\n    }\n    \n    [class=\"mainDiv\"][_ngcontent-%COMP%]{\n        display: flex !important; flex-direction: column !important;\n    }\n\n    [class=\"timeLine border-0\"][_ngcontent-%COMP%]{\n      display:none !important;\n        width: 95% !important;\n        margin-left: 1vh;\n        margin-right: 1vh;\n        margin-bottom: 1vh;\n    }\n\n    [id=\"hideTimeline\"][_ngcontent-%COMP%]{\n      display: none !important;\n    }\n\n    [class=\"timeLine2 border-0\"][_ngcontent-%COMP%]{\n      display:none !important;\n        width: 95% !important;\n        margin-left: 2vh;\n        margin-right: 1vh;\n        margin-bottom: 1vh;\n    }\n\n    [classs=\"card border-0 cardsDiv\"][_ngcontent-%COMP%]{\n      width: 80vh !important;\n      margin: auto !important;\n\n    }\n    \n    [class=\"canvasChart\"][_ngcontent-%COMP%]{\n      display: inherit !important;\n        width: auto !important;\n       margin-top: 2vh !important;\n        display:sticky;\n        overflow: scroll;\n    }\n}\n\n.cssload-container[_ngcontent-%COMP%] {\n\twidth: 117px;\n\tmargin: 0 auto;\n}\n\n.cssload-circle-1[_ngcontent-%COMP%] {\n\theight: 117px;\n\twidth: 117px;\n\tbackground: rgb(97,46,141);\n}\n\n.cssload-circle-2[_ngcontent-%COMP%] {\n\theight: 97px;\n\twidth: 97px;\n\tbackground: rgb(194,34,134);\n}\n\n.cssload-circle-3[_ngcontent-%COMP%] {\n\theight: 78px;\n\twidth: 78px;\n\tbackground: rgb(234,34,94);\n}\n\n.cssload-circle-4[_ngcontent-%COMP%] {\n\theight: 58px;\n\twidth: 58px;\n\tbackground: rgb(237,91,53);\n}\n\n.cssload-circle-5[_ngcontent-%COMP%] {\n\theight: 39px;\n\twidth: 39px;\n\tbackground: rgb(245,181,46);\n}\n\n.cssload-circle-6[_ngcontent-%COMP%] {\n\theight: 19px;\n\twidth: 19px;\n\tbackground: rgb(129,197,64);\n}\n\n.cssload-circle-7[_ngcontent-%COMP%] {\n\theight: 10px;\n\twidth: 10px;\n\tbackground: rgb(0,163,150);\n}\n\n.cssload-circle-8[_ngcontent-%COMP%] {\n\theight: 5px;\n\twidth: 5px;\n\tbackground: rgb(22,116,188);\n}\n\n.cssload-circle-1[_ngcontent-%COMP%], .cssload-circle-2[_ngcontent-%COMP%], .cssload-circle-3[_ngcontent-%COMP%], .cssload-circle-4[_ngcontent-%COMP%], .cssload-circle-5[_ngcontent-%COMP%], .cssload-circle-6[_ngcontent-%COMP%], .cssload-circle-7[_ngcontent-%COMP%], .cssload-circle-8[_ngcontent-%COMP%] {\n\tborder-bottom: none;\n\tborder-radius: 50%;\n\t\t-o-border-radius: 50%;\n\t\t-ms-border-radius: 50%;\n\t\t-webkit-border-radius: 50%;\n\t\t-moz-border-radius: 50%;\n\tbox-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-o-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-ms-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\tanimation-name: cssload-spin;\n\t\t-o-animation-name: cssload-spin;\n\t\t-ms-animation-name: cssload-spin;\n\t\t-webkit-animation-name: cssload-spin;\n\t\t-moz-animation-name: cssload-spin;\n\tanimation-duration: 4600ms;\n\t\t-o-animation-duration: 4600ms;\n\t\t-ms-animation-duration: 4600ms;\n\t\t-webkit-animation-duration: 4600ms;\n\t\t-moz-animation-duration: 4600ms;\n\tanimation-iteration-count: infinite;\n\t\t-o-animation-iteration-count: infinite;\n\t\t-ms-animation-iteration-count: infinite;\n\t\t-webkit-animation-iteration-count: infinite;\n\t\t-moz-animation-iteration-count: infinite;\n\tanimation-timing-function: linear;\n\t\t-o-animation-timing-function: linear;\n\t\t-ms-animation-timing-function: linear;\n\t\t-webkit-animation-timing-function: linear;\n\t\t-moz-animation-timing-function: linear;\n}\n\n@keyframes cssload-spin {\n\tfrom {\n\t\ttransform: rotate(0deg);\n\t}\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n@-webkit-keyframes cssload-spin {\n\tfrom {\n\t\t-webkit-transform: rotate(0deg);\n\t}\n\tto {\n\t\t-webkit-transform: rotate(360deg);\n\t}\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2hhcnRzL2NoYXJ0cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0EseUJBQXlCO0FBQ3pCLGlDQUFpQztBQUNqQyx5Q0FBeUM7QUFDekMsZ0JBQWdCO0FBQ2hCOztBQUVBO0lBQ0ksVUFBVTtFQUNaOztBQUVBLFVBQVU7O0FBQ1Y7SUFDRSxtQkFBbUI7RUFDckI7O0FBRUEsV0FBVzs7QUFDWDtJQUNFLG1CQUFtQjtFQUNyQjs7QUFFQSxvQkFBb0I7O0FBQ3BCO0lBQ0UsZ0JBQWdCO0VBQ2xCOztBQUVBO0lBQ0Usd0JBQXdCO0lBQ3hCLGNBQWM7SUFDZDs7QUFFQTtRQUNJLFlBQVk7SUFDaEI7O0FBRUo7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCOztBQUVGO0VBQ0UsV0FBVztFQUNYLGdCQUFnQjtBQUNsQjs7QUFDQTtJQUNJLHdCQUF3QjtJQUN4QixjQUFjO0lBQ2Q7O0FBRUE7O01BRUUscUJBQXFCOztJQUV2Qjs7QUFDQTtRQUNJLGFBQWE7UUFDYixxQkFBcUI7UUFDckIsWUFBWTtRQUNaLGtCQUFrQjtRQUNsQjswQkFDa0I7UUFDbEIsZ0JBQWdCO1FBQ2hCLGlCQUFpQjtRQUNqQixrQkFBa0I7TUFDcEI7O0FBRUY7TUFDRSxZQUFZO01BQ1oseUJBQXlCO01BQ3pCLGNBQWM7TUFDZCxnQkFBZ0I7TUFDaEIsaUJBQWlCO01BQ2pCLFdBQVc7RUFDZjs7QUFFRjtJQUNJLHVCQUF1QjtJQUN2QjtNQUNFLFVBQVU7TUFDVixlQUFlO01BQ2YsZ0JBQWdCOztJQUVsQjs7SUFFQTtRQUNJLDBCQUEwQjtRQUMxQixrQ0FBa0M7UUFDbEMsa0NBQWtDO0lBQ3RDOztJQUVBO1FBQ0kscUJBQXFCO1FBQ3JCLG9CQUFvQjtJQUN4Qjs7SUFFQTtRQUNJLGFBQWE7SUFDakIsVUFBVTtJQUNWLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsMEJBQTBCO0lBQzFCLDJCQUEyQjtJQUMzQjs7SUFFQTtNQUNFLDJCQUEyQjtNQUMzQiw0QkFBNEI7TUFDNUIsNkJBQTZCO01BQzdCLHNCQUFzQjtNQUN0Qix1QkFBdUI7SUFDekI7O0lBRUE7UUFDSSx3QkFBd0IsRUFBRSxpQ0FBaUM7SUFDL0Q7O0lBRUE7TUFDRSx1QkFBdUI7UUFDckIscUJBQXFCO1FBQ3JCLGdCQUFnQjtRQUNoQixpQkFBaUI7UUFDakIsa0JBQWtCO0lBQ3RCOztJQUVBO01BQ0Usd0JBQXdCO0lBQzFCOztJQUVBO01BQ0UsdUJBQXVCO1FBQ3JCLHFCQUFxQjtRQUNyQixnQkFBZ0I7UUFDaEIsaUJBQWlCO1FBQ2pCLGtCQUFrQjtJQUN0Qjs7SUFFQTtNQUNFLHNCQUFzQjtNQUN0Qix1QkFBdUI7O0lBRXpCOztJQUVBO01BQ0UsMkJBQTJCO1FBQ3pCLHNCQUFzQjtPQUN2QiwwQkFBMEI7UUFDekIsY0FBYztRQUNkLGdCQUFnQjtJQUNwQjtBQUNKOztBQUdBO0NBQ0MsWUFBWTtDQUNaLGNBQWM7QUFDZjs7QUFFQTtDQUNDLGFBQWE7Q0FDYixZQUFZO0NBQ1osMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsWUFBWTtDQUNaLFdBQVc7Q0FDWCwyQkFBMkI7QUFDNUI7O0FBRUE7Q0FDQyxZQUFZO0NBQ1osV0FBVztDQUNYLDBCQUEwQjtBQUMzQjs7QUFFQTtDQUNDLFlBQVk7Q0FDWixXQUFXO0NBQ1gsMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsWUFBWTtDQUNaLFdBQVc7Q0FDWCwyQkFBMkI7QUFDNUI7O0FBRUE7Q0FDQyxZQUFZO0NBQ1osV0FBVztDQUNYLDJCQUEyQjtBQUM1Qjs7QUFFQTtDQUNDLFlBQVk7Q0FDWixXQUFXO0NBQ1gsMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsV0FBVztDQUNYLFVBQVU7Q0FDViwyQkFBMkI7QUFDNUI7O0FBRUE7Ozs7Ozs7O0NBUUMsbUJBQW1CO0NBQ25CLGtCQUFrQjtFQUNqQixxQkFBcUI7RUFDckIsc0JBQXNCO0VBQ3RCLDBCQUEwQjtFQUMxQix1QkFBdUI7Q0FDeEIsdUNBQXVDO0VBQ3RDLDBDQUEwQztFQUMxQywyQ0FBMkM7RUFDM0MsK0NBQStDO0VBQy9DLDRDQUE0QztDQUM3Qyw0QkFBNEI7RUFDM0IsK0JBQStCO0VBQy9CLGdDQUFnQztFQUNoQyxvQ0FBb0M7RUFDcEMsaUNBQWlDO0NBQ2xDLDBCQUEwQjtFQUN6Qiw2QkFBNkI7RUFDN0IsOEJBQThCO0VBQzlCLGtDQUFrQztFQUNsQywrQkFBK0I7Q0FDaEMsbUNBQW1DO0VBQ2xDLHNDQUFzQztFQUN0Qyx1Q0FBdUM7RUFDdkMsMkNBQTJDO0VBQzNDLHdDQUF3QztDQUN6QyxpQ0FBaUM7RUFDaEMsb0NBQW9DO0VBQ3BDLHFDQUFxQztFQUNyQyx5Q0FBeUM7RUFDekMsc0NBQXNDO0FBQ3hDOztBQUlBO0NBQ0M7RUFDQyx1QkFBdUI7Q0FDeEI7Q0FDQTtFQUNDLHlCQUF5QjtDQUMxQjtBQUNEOztBQW9CQTtDQUNDO0VBQ0MsK0JBQStCO0NBQ2hDO0NBQ0E7RUFDQyxpQ0FBaUM7Q0FDbEM7QUFDRCIsImZpbGUiOiJzcmMvYXBwL2NoYXJ0cy9jaGFydHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbmZvLWJveHtcbmRpc3BsYXkgOiBmbGV4ICFpbXBvcnRhbnQ7ICBcbmZsZXgtZGlyZWN0aW9uOiBjb2x1bW4gIWltcG9ydGFudDtcbmp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbiAhaW1wb3J0YW50O1xubWFyZ2luLXRvcDogMTBweDtcbn1cblxuOjotd2Via2l0LXNjcm9sbGJhciB7XG4gICAgd2lkdGg6IDVweDtcbiAgfVxuICBcbiAgLyogVHJhY2sgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XG4gICAgYmFja2dyb3VuZDogIzE5MTkxYzsgXG4gIH1cbiAgIFxuICAvKiBIYW5kbGUgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgYmFja2dyb3VuZDogIzhhNzdmYzsgXG4gIH1cbiAgXG4gIC8qIEhhbmRsZSBvbiBob3ZlciAqL1xuICA6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kOiAjNTU1OyBcbiAgfVxuXG4gIC5tYXQtcm93Om50aC1jaGlsZChldmVuKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMxMjEyMTI7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgIH1cblxuLmNhcmQgYm9yZGVyLTAgY2FyZHNEaXZ7XG4gIHdpZHRoOiAxNXJlbTtcbn1cblxuOjpuZy1kZWVwIC5tYXQtdGFiLWxhYmVsIC5tYXQtdGFiLWxhYmVsLWNvbnRlbnQge1xuICBjb2xvcjp3aGl0ZTtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgfVxuXG4ubWF0LXRhYi1sYWJlbHtcbiAgY29sb3I6d2hpdGU7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG4ubWF0LXJvdzpudGgtY2hpbGQob2RkKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMyMTIxMjE7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsLCAubWF0LWhlYWRlci1jZWxsIHtcbiAgICAgXG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgXG4gICAgfVxuICAgIC5leGFtcGxlLWNvbnRhaW5lciB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOmNvbHVtbjtcbiAgICAgICAgaGVpZ2h0OiA3MHZoOyAgIFxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7ICAgIFxuICAgICAgICAvKiBtYXgtaGVpZ2h0OiA1MHB4O1xuICAgICAgICBtaW4td2lkdGg6IDMwcHg7ICovXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXZoO1xuICAgICAgICBtYXJnaW4tYm90dG9tOjEwcHg7XG4gICAgICB9XG5cbiAgICAubWF0dHtcbiAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICMyMTIxMjE7ICAgICAgXG4gICAgICBtYXJnaW4tdG9wOjJweDtcbiAgICAgIG1hcmdpbi1sZWZ0OiA1cHg7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDVweDtcbiAgICAgIGhlaWdodDogMjAlO1xuICB9XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAvKiBGb3IgbW9iaWxlIHBob25lczogKi9cbiAgICBbY2xhc3M9XCJjYXJkXCJde1xuICAgICAgd2lkdGg6IDkwJTtcbiAgICAgIG1hcmdpbi1sZWZ0OiA1JTtcbiAgICAgIG1hcmdpbi1yaWdodDogNSU7XG4gICAgICBcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJkaXZDaGFydFwiXXtcbiAgICAgICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBpbml0aWFsICFpbXBvcnRhbnQ7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyICFpbXBvcnRhbnQ7XG4gICAgfVxuXG4gICAgW2NsYXNzPVwiY2FyZCBib3JkZXItMCBjYXJkc0RpdlwiXXtcbiAgICAgICAgd2lkdGg6IDgwJSAhaW1wb3J0YW50O1xuICAgICAgICBtYXJnaW46MHZoIGltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJpbWFnZUNsYXNzXCJde1xuICAgICAgICBkaXNwbGF5OmJsb2NrO1xuICAgIG1hcmdpbjowcHg7XG4gICAgd2lkdGg6IDI1JSAhaW1wb3J0YW50O1xuICAgIG1heC1oZWlnaHQ6IGF1dG87XG4gICAgbWFyZ2luLXRvcDogMnZoICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLWxlZnQ6IDM3JSAhaW1wb3J0YW50O1xuICAgIH1cblxuICAgIFtjbGFzcz1cInRhYkNsYXNzRm9yTW9iaWxlXCJde1xuICAgICAgZGlzcGxheTogaW5oZXJpdCAhaW1wb3J0YW50O1xuICAgICAgbWFyZ2luLWxlZnQ6IDF2aCAhaW1wb3J0YW50IDtcbiAgICAgIG1hcmdpbi1yaWdodDogMXZoICFpbXBvcnRhbnQgO1xuICAgICAgd2lkdGg6IGF1dG8gIWltcG9ydGFudDtcbiAgICAgIGhlaWdodDogYXV0byAhaW1wb3J0YW50O1xuICAgIH1cbiAgICBcbiAgICBbY2xhc3M9XCJtYWluRGl2XCJde1xuICAgICAgICBkaXNwbGF5OiBmbGV4ICFpbXBvcnRhbnQ7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW4gIWltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJ0aW1lTGluZSBib3JkZXItMFwiXXtcbiAgICAgIGRpc3BsYXk6bm9uZSAhaW1wb3J0YW50O1xuICAgICAgICB3aWR0aDogOTUlICFpbXBvcnRhbnQ7XG4gICAgICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXZoO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxdmg7XG4gICAgfVxuXG4gICAgW2lkPVwiaGlkZVRpbWVsaW5lXCJde1xuICAgICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICAgIH1cblxuICAgIFtjbGFzcz1cInRpbWVMaW5lMiBib3JkZXItMFwiXXtcbiAgICAgIGRpc3BsYXk6bm9uZSAhaW1wb3J0YW50O1xuICAgICAgICB3aWR0aDogOTUlICFpbXBvcnRhbnQ7XG4gICAgICAgIG1hcmdpbi1sZWZ0OiAydmg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXZoO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxdmg7XG4gICAgfVxuXG4gICAgW2NsYXNzcz1cImNhcmQgYm9yZGVyLTAgY2FyZHNEaXZcIl17XG4gICAgICB3aWR0aDogODB2aCAhaW1wb3J0YW50O1xuICAgICAgbWFyZ2luOiBhdXRvICFpbXBvcnRhbnQ7XG5cbiAgICB9XG4gICAgXG4gICAgW2NsYXNzPVwiY2FudmFzQ2hhcnRcIl17XG4gICAgICBkaXNwbGF5OiBpbmhlcml0ICFpbXBvcnRhbnQ7XG4gICAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XG4gICAgICAgbWFyZ2luLXRvcDogMnZoICFpbXBvcnRhbnQ7XG4gICAgICAgIGRpc3BsYXk6c3RpY2t5O1xuICAgICAgICBvdmVyZmxvdzogc2Nyb2xsO1xuICAgIH1cbn1cblxuXG4uY3NzbG9hZC1jb250YWluZXIge1xuXHR3aWR0aDogMTE3cHg7XG5cdG1hcmdpbjogMCBhdXRvO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtMSB7XG5cdGhlaWdodDogMTE3cHg7XG5cdHdpZHRoOiAxMTdweDtcblx0YmFja2dyb3VuZDogcmdiKDk3LDQ2LDE0MSk7XG59XG5cbi5jc3Nsb2FkLWNpcmNsZS0yIHtcblx0aGVpZ2h0OiA5N3B4O1xuXHR3aWR0aDogOTdweDtcblx0YmFja2dyb3VuZDogcmdiKDE5NCwzNCwxMzQpO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtMyB7XG5cdGhlaWdodDogNzhweDtcblx0d2lkdGg6IDc4cHg7XG5cdGJhY2tncm91bmQ6IHJnYigyMzQsMzQsOTQpO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtNCB7XG5cdGhlaWdodDogNThweDtcblx0d2lkdGg6IDU4cHg7XG5cdGJhY2tncm91bmQ6IHJnYigyMzcsOTEsNTMpO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtNSB7XG5cdGhlaWdodDogMzlweDtcblx0d2lkdGg6IDM5cHg7XG5cdGJhY2tncm91bmQ6IHJnYigyNDUsMTgxLDQ2KTtcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTYge1xuXHRoZWlnaHQ6IDE5cHg7XG5cdHdpZHRoOiAxOXB4O1xuXHRiYWNrZ3JvdW5kOiByZ2IoMTI5LDE5Nyw2NCk7XG59XG5cbi5jc3Nsb2FkLWNpcmNsZS03IHtcblx0aGVpZ2h0OiAxMHB4O1xuXHR3aWR0aDogMTBweDtcblx0YmFja2dyb3VuZDogcmdiKDAsMTYzLDE1MCk7XG59XG5cbi5jc3Nsb2FkLWNpcmNsZS04IHtcblx0aGVpZ2h0OiA1cHg7XG5cdHdpZHRoOiA1cHg7XG5cdGJhY2tncm91bmQ6IHJnYigyMiwxMTYsMTg4KTtcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTEsXG4uY3NzbG9hZC1jaXJjbGUtMixcbi5jc3Nsb2FkLWNpcmNsZS0zLFxuLmNzc2xvYWQtY2lyY2xlLTQsXG4uY3NzbG9hZC1jaXJjbGUtNSxcbi5jc3Nsb2FkLWNpcmNsZS02LFxuLmNzc2xvYWQtY2lyY2xlLTcsXG4uY3NzbG9hZC1jaXJjbGUtOCB7XG5cdGJvcmRlci1ib3R0b206IG5vbmU7XG5cdGJvcmRlci1yYWRpdXM6IDUwJTtcblx0XHQtby1ib3JkZXItcmFkaXVzOiA1MCU7XG5cdFx0LW1zLWJvcmRlci1yYWRpdXM6IDUwJTtcblx0XHQtd2Via2l0LWJvcmRlci1yYWRpdXM6IDUwJTtcblx0XHQtbW96LWJvcmRlci1yYWRpdXM6IDUwJTtcblx0Ym94LXNoYWRvdzogMXB4IDFweCAxcHggcmdiYSgwLDAsMCwwLjEpO1xuXHRcdC1vLWJveC1zaGFkb3c6IDFweCAxcHggMXB4IHJnYmEoMCwwLDAsMC4xKTtcblx0XHQtbXMtYm94LXNoYWRvdzogMXB4IDFweCAxcHggcmdiYSgwLDAsMCwwLjEpO1xuXHRcdC13ZWJraXQtYm94LXNoYWRvdzogMXB4IDFweCAxcHggcmdiYSgwLDAsMCwwLjEpO1xuXHRcdC1tb3otYm94LXNoYWRvdzogMXB4IDFweCAxcHggcmdiYSgwLDAsMCwwLjEpO1xuXHRhbmltYXRpb24tbmFtZTogY3NzbG9hZC1zcGluO1xuXHRcdC1vLWFuaW1hdGlvbi1uYW1lOiBjc3Nsb2FkLXNwaW47XG5cdFx0LW1zLWFuaW1hdGlvbi1uYW1lOiBjc3Nsb2FkLXNwaW47XG5cdFx0LXdlYmtpdC1hbmltYXRpb24tbmFtZTogY3NzbG9hZC1zcGluO1xuXHRcdC1tb3otYW5pbWF0aW9uLW5hbWU6IGNzc2xvYWQtc3Bpbjtcblx0YW5pbWF0aW9uLWR1cmF0aW9uOiA0NjAwbXM7XG5cdFx0LW8tYW5pbWF0aW9uLWR1cmF0aW9uOiA0NjAwbXM7XG5cdFx0LW1zLWFuaW1hdGlvbi1kdXJhdGlvbjogNDYwMG1zO1xuXHRcdC13ZWJraXQtYW5pbWF0aW9uLWR1cmF0aW9uOiA0NjAwbXM7XG5cdFx0LW1vei1hbmltYXRpb24tZHVyYXRpb246IDQ2MDBtcztcblx0YW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG5cdFx0LW8tYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG5cdFx0LW1zLWFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuXHRcdC13ZWJraXQtYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG5cdFx0LW1vei1hbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcblx0YW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xuXHRcdC1vLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcblx0XHQtbXMtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xuXHRcdC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xuXHRcdC1tb3otYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyO1xufVxuXG5cblxuQGtleWZyYW1lcyBjc3Nsb2FkLXNwaW4ge1xuXHRmcm9tIHtcblx0XHR0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0fVxuXHR0byB7XG5cdFx0dHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcblx0fVxufVxuXG5ALW8ta2V5ZnJhbWVzIGNzc2xvYWQtc3BpbiB7XG5cdGZyb20ge1xuXHRcdC1vLXRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuXHR9XG5cdHRvIHtcblx0XHQtby10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuXHR9XG59XG5cbkAtbXMta2V5ZnJhbWVzIGNzc2xvYWQtc3BpbiB7XG5cdGZyb20ge1xuXHRcdC1tcy10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0fVxuXHR0byB7XG5cdFx0LW1zLXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7XG5cdH1cbn1cblxuQC13ZWJraXQta2V5ZnJhbWVzIGNzc2xvYWQtc3BpbiB7XG5cdGZyb20ge1xuXHRcdC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG5cdH1cblx0dG8ge1xuXHRcdC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcblx0fVxufVxuXG5ALW1vei1rZXlmcmFtZXMgY3NzbG9hZC1zcGluIHtcblx0ZnJvbSB7XG5cdFx0LW1vei10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0fVxuXHR0byB7XG5cdFx0LW1vei10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuXHR9XG59XG4iXX0= */"]
+      styles: [".info-box[_ngcontent-%COMP%]{\ndisplay : flex !important;  \nflex-direction: column !important;\njustify-content: space-between !important;\nmargin-top: 10px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar {\n    width: 5px;\n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n    background: #19191c; \n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n    background: #8a77fc; \n  }\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n    background: #555; \n  }\n\n.mat-row[_ngcontent-%COMP%]:nth-child(even){\n    background-color:#121212;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%] {\n        color: white;\n    }\n\n#chartPageCards[_ngcontent-%COMP%]{\n  width: 15rem;\n}\n\n  .mat-tab-label .mat-tab-label-content {\n  color:white;\n  font-weight: 500;\n  }\n\n.mat-tab-label[_ngcontent-%COMP%]{\n  color:white;\n  font-weight: 700;\n}\n\n.mat-row[_ngcontent-%COMP%]:nth-child(odd){\n    background-color:#212121;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%], .mat-header-cell[_ngcontent-%COMP%] {\n     \n      word-wrap: break-word;\n    \n    }\n\n.example-container[_ngcontent-%COMP%] {\n        display: flex;\n        flex-direction:column;\n        height: 70vh;   \n        position: relative;    \n        \n        margin-left: 1vh;\n        margin-right: 1vh;\n        margin-bottom:10px;\n      }\n\n.matt[_ngcontent-%COMP%]{\n      color: white;\n      background-color: #212121;      \n      margin-top:2px;\n      margin-left: 5px;\n      margin-right: 5px;\n      height: 20%;\n  }\n\n@media only screen and (max-width: 768px) {\n    \n    [class=\"card\"][_ngcontent-%COMP%]{\n      width: 90%;\n      margin-left: 5%;\n      margin-right: 5%;\n      \n    }\n\n    [class=\"divChart\"][_ngcontent-%COMP%]{\n        display: inline !important;\n        flex-direction: initial !important;\n        justify-content: center !important;\n    }\n\n    [id=\"chartPageCards\"][_ngcontent-%COMP%]{\n        width: 80% !important;\n        margin:0vh important;\n    }\n\n    [class=\"imageClass\"][_ngcontent-%COMP%]{\n        display:block;\n    margin:0px;\n    width: 25% !important;\n    max-height: auto;\n    margin-top: 2vh !important;\n    margin-left: 37% !important;\n    }\n\n    [class=\"tabClassForMobile\"][_ngcontent-%COMP%]{\n      display: inherit !important;\n      margin-left: 1vh !important ;\n      margin-right: 1vh !important ;\n      width: auto !important;\n      height: auto !important;\n    }\n    \n    [class=\"mainDiv\"][_ngcontent-%COMP%]{\n        display: flex !important; flex-direction: column !important;\n    }\n\n    [class=\"timeLine border-0\"][_ngcontent-%COMP%]{\n      display:none !important;\n        width: 95% !important;\n        margin-left: 1vh;\n        margin-right: 1vh;\n        margin-bottom: 1vh;\n    }\n\n    [id=\"hideTimeline\"][_ngcontent-%COMP%]{\n      display: none !important;\n    }\n\n    [class=\"timeLine2 border-0\"][_ngcontent-%COMP%]{\n      display:none !important;\n        width: 95% !important;\n        margin-left: 2vh;\n        margin-right: 1vh;\n        margin-bottom: 1vh;\n    }\n\n    [classs=\"card border-0 cardsDiv\"][_ngcontent-%COMP%]{\n      width: 80vh !important;\n      margin: auto !important;\n\n    }\n    \n    [class=\"canvasChart\"][_ngcontent-%COMP%]{\n      display: inherit !important;\n        width: auto !important;\n       margin-top: 2vh !important;\n        display:sticky;\n        overflow: scroll;\n    }\n}\n\n.cssload-container[_ngcontent-%COMP%] {\n\twidth: 117px;\n\tmargin: 0 auto;\n}\n\n.cssload-circle-1[_ngcontent-%COMP%] {\n\theight: 117px;\n\twidth: 117px;\n\tbackground: rgb(97,46,141);\n}\n\n.cssload-circle-2[_ngcontent-%COMP%] {\n\theight: 97px;\n\twidth: 97px;\n\tbackground: rgb(194,34,134);\n}\n\n.cssload-circle-3[_ngcontent-%COMP%] {\n\theight: 78px;\n\twidth: 78px;\n\tbackground: rgb(234,34,94);\n}\n\n.cssload-circle-4[_ngcontent-%COMP%] {\n\theight: 58px;\n\twidth: 58px;\n\tbackground: rgb(237,91,53);\n}\n\n.cssload-circle-5[_ngcontent-%COMP%] {\n\theight: 39px;\n\twidth: 39px;\n\tbackground: rgb(245,181,46);\n}\n\n.cssload-circle-6[_ngcontent-%COMP%] {\n\theight: 19px;\n\twidth: 19px;\n\tbackground: rgb(129,197,64);\n}\n\n.cssload-circle-7[_ngcontent-%COMP%] {\n\theight: 10px;\n\twidth: 10px;\n\tbackground: rgb(0,163,150);\n}\n\n.cssload-circle-8[_ngcontent-%COMP%] {\n\theight: 5px;\n\twidth: 5px;\n\tbackground: rgb(22,116,188);\n}\n\n.cssload-circle-1[_ngcontent-%COMP%], .cssload-circle-2[_ngcontent-%COMP%], .cssload-circle-3[_ngcontent-%COMP%], .cssload-circle-4[_ngcontent-%COMP%], .cssload-circle-5[_ngcontent-%COMP%], .cssload-circle-6[_ngcontent-%COMP%], .cssload-circle-7[_ngcontent-%COMP%], .cssload-circle-8[_ngcontent-%COMP%] {\n\tborder-bottom: none;\n\tborder-radius: 50%;\n\t\t-o-border-radius: 50%;\n\t\t-ms-border-radius: 50%;\n\t\t-webkit-border-radius: 50%;\n\t\t-moz-border-radius: 50%;\n\tbox-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-o-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-ms-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\t\t-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);\n\tanimation-name: cssload-spin;\n\t\t-o-animation-name: cssload-spin;\n\t\t-ms-animation-name: cssload-spin;\n\t\t-webkit-animation-name: cssload-spin;\n\t\t-moz-animation-name: cssload-spin;\n\tanimation-duration: 4600ms;\n\t\t-o-animation-duration: 4600ms;\n\t\t-ms-animation-duration: 4600ms;\n\t\t-webkit-animation-duration: 4600ms;\n\t\t-moz-animation-duration: 4600ms;\n\tanimation-iteration-count: infinite;\n\t\t-o-animation-iteration-count: infinite;\n\t\t-ms-animation-iteration-count: infinite;\n\t\t-webkit-animation-iteration-count: infinite;\n\t\t-moz-animation-iteration-count: infinite;\n\tanimation-timing-function: linear;\n\t\t-o-animation-timing-function: linear;\n\t\t-ms-animation-timing-function: linear;\n\t\t-webkit-animation-timing-function: linear;\n\t\t-moz-animation-timing-function: linear;\n}\n\n@keyframes cssload-spin {\n\tfrom {\n\t\ttransform: rotate(0deg);\n\t}\n\tto {\n\t\ttransform: rotate(360deg);\n\t}\n}\n\n@-webkit-keyframes cssload-spin {\n\tfrom {\n\t\t-webkit-transform: rotate(0deg);\n\t}\n\tto {\n\t\t-webkit-transform: rotate(360deg);\n\t}\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2hhcnRzL2NoYXJ0cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0EseUJBQXlCO0FBQ3pCLGlDQUFpQztBQUNqQyx5Q0FBeUM7QUFDekMsZ0JBQWdCO0FBQ2hCOztBQUVBO0lBQ0ksVUFBVTtFQUNaOztBQUVBLFVBQVU7O0FBQ1Y7SUFDRSxtQkFBbUI7RUFDckI7O0FBRUEsV0FBVzs7QUFDWDtJQUNFLG1CQUFtQjtFQUNyQjs7QUFFQSxvQkFBb0I7O0FBQ3BCO0lBQ0UsZ0JBQWdCO0VBQ2xCOztBQUdBO0lBQ0Usd0JBQXdCO0lBQ3hCLGNBQWM7SUFDZDs7QUFFQTtRQUNJLFlBQVk7SUFDaEI7O0FBRUo7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCOztBQUVGO0VBQ0UsV0FBVztFQUNYLGdCQUFnQjtBQUNsQjs7QUFDQTtJQUNJLHdCQUF3QjtJQUN4QixjQUFjO0lBQ2Q7O0FBRUE7O01BRUUscUJBQXFCOztJQUV2Qjs7QUFDQTtRQUNJLGFBQWE7UUFDYixxQkFBcUI7UUFDckIsWUFBWTtRQUNaLGtCQUFrQjtRQUNsQjswQkFDa0I7UUFDbEIsZ0JBQWdCO1FBQ2hCLGlCQUFpQjtRQUNqQixrQkFBa0I7TUFDcEI7O0FBRUY7TUFDRSxZQUFZO01BQ1oseUJBQXlCO01BQ3pCLGNBQWM7TUFDZCxnQkFBZ0I7TUFDaEIsaUJBQWlCO01BQ2pCLFdBQVc7RUFDZjs7QUFFRjtJQUNJLHVCQUF1QjtJQUN2QjtNQUNFLFVBQVU7TUFDVixlQUFlO01BQ2YsZ0JBQWdCOztJQUVsQjs7SUFFQTtRQUNJLDBCQUEwQjtRQUMxQixrQ0FBa0M7UUFDbEMsa0NBQWtDO0lBQ3RDOztJQUVBO1FBQ0kscUJBQXFCO1FBQ3JCLG9CQUFvQjtJQUN4Qjs7SUFFQTtRQUNJLGFBQWE7SUFDakIsVUFBVTtJQUNWLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsMEJBQTBCO0lBQzFCLDJCQUEyQjtJQUMzQjs7SUFFQTtNQUNFLDJCQUEyQjtNQUMzQiw0QkFBNEI7TUFDNUIsNkJBQTZCO01BQzdCLHNCQUFzQjtNQUN0Qix1QkFBdUI7SUFDekI7O0lBRUE7UUFDSSx3QkFBd0IsRUFBRSxpQ0FBaUM7SUFDL0Q7O0lBRUE7TUFDRSx1QkFBdUI7UUFDckIscUJBQXFCO1FBQ3JCLGdCQUFnQjtRQUNoQixpQkFBaUI7UUFDakIsa0JBQWtCO0lBQ3RCOztJQUVBO01BQ0Usd0JBQXdCO0lBQzFCOztJQUVBO01BQ0UsdUJBQXVCO1FBQ3JCLHFCQUFxQjtRQUNyQixnQkFBZ0I7UUFDaEIsaUJBQWlCO1FBQ2pCLGtCQUFrQjtJQUN0Qjs7SUFFQTtNQUNFLHNCQUFzQjtNQUN0Qix1QkFBdUI7O0lBRXpCOztJQUVBO01BQ0UsMkJBQTJCO1FBQ3pCLHNCQUFzQjtPQUN2QiwwQkFBMEI7UUFDekIsY0FBYztRQUNkLGdCQUFnQjtJQUNwQjtBQUNKOztBQUdBO0NBQ0MsWUFBWTtDQUNaLGNBQWM7QUFDZjs7QUFFQTtDQUNDLGFBQWE7Q0FDYixZQUFZO0NBQ1osMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsWUFBWTtDQUNaLFdBQVc7Q0FDWCwyQkFBMkI7QUFDNUI7O0FBRUE7Q0FDQyxZQUFZO0NBQ1osV0FBVztDQUNYLDBCQUEwQjtBQUMzQjs7QUFFQTtDQUNDLFlBQVk7Q0FDWixXQUFXO0NBQ1gsMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsWUFBWTtDQUNaLFdBQVc7Q0FDWCwyQkFBMkI7QUFDNUI7O0FBRUE7Q0FDQyxZQUFZO0NBQ1osV0FBVztDQUNYLDJCQUEyQjtBQUM1Qjs7QUFFQTtDQUNDLFlBQVk7Q0FDWixXQUFXO0NBQ1gsMEJBQTBCO0FBQzNCOztBQUVBO0NBQ0MsV0FBVztDQUNYLFVBQVU7Q0FDViwyQkFBMkI7QUFDNUI7O0FBRUE7Ozs7Ozs7O0NBUUMsbUJBQW1CO0NBQ25CLGtCQUFrQjtFQUNqQixxQkFBcUI7RUFDckIsc0JBQXNCO0VBQ3RCLDBCQUEwQjtFQUMxQix1QkFBdUI7Q0FDeEIsdUNBQXVDO0VBQ3RDLDBDQUEwQztFQUMxQywyQ0FBMkM7RUFDM0MsK0NBQStDO0VBQy9DLDRDQUE0QztDQUM3Qyw0QkFBNEI7RUFDM0IsK0JBQStCO0VBQy9CLGdDQUFnQztFQUNoQyxvQ0FBb0M7RUFDcEMsaUNBQWlDO0NBQ2xDLDBCQUEwQjtFQUN6Qiw2QkFBNkI7RUFDN0IsOEJBQThCO0VBQzlCLGtDQUFrQztFQUNsQywrQkFBK0I7Q0FDaEMsbUNBQW1DO0VBQ2xDLHNDQUFzQztFQUN0Qyx1Q0FBdUM7RUFDdkMsMkNBQTJDO0VBQzNDLHdDQUF3QztDQUN6QyxpQ0FBaUM7RUFDaEMsb0NBQW9DO0VBQ3BDLHFDQUFxQztFQUNyQyx5Q0FBeUM7RUFDekMsc0NBQXNDO0FBQ3hDOztBQUlBO0NBQ0M7RUFDQyx1QkFBdUI7Q0FDeEI7Q0FDQTtFQUNDLHlCQUF5QjtDQUMxQjtBQUNEOztBQW9CQTtDQUNDO0VBQ0MsK0JBQStCO0NBQ2hDO0NBQ0E7RUFDQyxpQ0FBaUM7Q0FDbEM7QUFDRCIsImZpbGUiOiJzcmMvYXBwL2NoYXJ0cy9jaGFydHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbmZvLWJveHtcbmRpc3BsYXkgOiBmbGV4ICFpbXBvcnRhbnQ7ICBcbmZsZXgtZGlyZWN0aW9uOiBjb2x1bW4gIWltcG9ydGFudDtcbmp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbiAhaW1wb3J0YW50O1xubWFyZ2luLXRvcDogMTBweDtcbn1cblxuOjotd2Via2l0LXNjcm9sbGJhciB7XG4gICAgd2lkdGg6IDVweDtcbiAgfVxuICBcbiAgLyogVHJhY2sgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XG4gICAgYmFja2dyb3VuZDogIzE5MTkxYzsgXG4gIH1cbiAgIFxuICAvKiBIYW5kbGUgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgYmFja2dyb3VuZDogIzhhNzdmYzsgXG4gIH1cbiAgXG4gIC8qIEhhbmRsZSBvbiBob3ZlciAqL1xuICA6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kOiAjNTU1OyBcbiAgfVxuXG5cbiAgLm1hdC1yb3c6bnRoLWNoaWxkKGV2ZW4pe1xuICAgIGJhY2tncm91bmQtY29sb3I6IzEyMTIxMjtcbiAgICBjb2xvcjojY2Y2Njc5IDtcbiAgICB9XG5cbiAgICAubWF0LWNlbGwge1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgfVxuXG4jY2hhcnRQYWdlQ2FyZHN7XG4gIHdpZHRoOiAxNXJlbTtcbn1cblxuOjpuZy1kZWVwIC5tYXQtdGFiLWxhYmVsIC5tYXQtdGFiLWxhYmVsLWNvbnRlbnQge1xuICBjb2xvcjp3aGl0ZTtcbiAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgfVxuXG4ubWF0LXRhYi1sYWJlbHtcbiAgY29sb3I6d2hpdGU7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG4ubWF0LXJvdzpudGgtY2hpbGQob2RkKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMyMTIxMjE7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsLCAubWF0LWhlYWRlci1jZWxsIHtcbiAgICAgXG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgXG4gICAgfVxuICAgIC5leGFtcGxlLWNvbnRhaW5lciB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOmNvbHVtbjtcbiAgICAgICAgaGVpZ2h0OiA3MHZoOyAgIFxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7ICAgIFxuICAgICAgICAvKiBtYXgtaGVpZ2h0OiA1MHB4O1xuICAgICAgICBtaW4td2lkdGg6IDMwcHg7ICovXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMXZoO1xuICAgICAgICBtYXJnaW4tYm90dG9tOjEwcHg7XG4gICAgICB9XG5cbiAgICAubWF0dHtcbiAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICMyMTIxMjE7ICAgICAgXG4gICAgICBtYXJnaW4tdG9wOjJweDtcbiAgICAgIG1hcmdpbi1sZWZ0OiA1cHg7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDVweDtcbiAgICAgIGhlaWdodDogMjAlO1xuICB9XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAvKiBGb3IgbW9iaWxlIHBob25lczogKi9cbiAgICBbY2xhc3M9XCJjYXJkXCJde1xuICAgICAgd2lkdGg6IDkwJTtcbiAgICAgIG1hcmdpbi1sZWZ0OiA1JTtcbiAgICAgIG1hcmdpbi1yaWdodDogNSU7XG4gICAgICBcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJkaXZDaGFydFwiXXtcbiAgICAgICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBpbml0aWFsICFpbXBvcnRhbnQ7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyICFpbXBvcnRhbnQ7XG4gICAgfVxuXG4gICAgW2lkPVwiY2hhcnRQYWdlQ2FyZHNcIl17XG4gICAgICAgIHdpZHRoOiA4MCUgIWltcG9ydGFudDtcbiAgICAgICAgbWFyZ2luOjB2aCBpbXBvcnRhbnQ7XG4gICAgfVxuXG4gICAgW2NsYXNzPVwiaW1hZ2VDbGFzc1wiXXtcbiAgICAgICAgZGlzcGxheTpibG9jaztcbiAgICBtYXJnaW46MHB4O1xuICAgIHdpZHRoOiAyNSUgIWltcG9ydGFudDtcbiAgICBtYXgtaGVpZ2h0OiBhdXRvO1xuICAgIG1hcmdpbi10b3A6IDJ2aCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1sZWZ0OiAzNyUgIWltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJ0YWJDbGFzc0Zvck1vYmlsZVwiXXtcbiAgICAgIGRpc3BsYXk6IGluaGVyaXQgIWltcG9ydGFudDtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxdmggIWltcG9ydGFudCA7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDF2aCAhaW1wb3J0YW50IDtcbiAgICAgIHdpZHRoOiBhdXRvICFpbXBvcnRhbnQ7XG4gICAgICBoZWlnaHQ6IGF1dG8gIWltcG9ydGFudDtcbiAgICB9XG4gICAgXG4gICAgW2NsYXNzPVwibWFpbkRpdlwiXXtcbiAgICAgICAgZGlzcGxheTogZmxleCAhaW1wb3J0YW50OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uICFpbXBvcnRhbnQ7XG4gICAgfVxuXG4gICAgW2NsYXNzPVwidGltZUxpbmUgYm9yZGVyLTBcIl17XG4gICAgICBkaXNwbGF5Om5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgd2lkdGg6IDk1JSAhaW1wb3J0YW50O1xuICAgICAgICBtYXJnaW4tbGVmdDogMXZoO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDF2aDtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMXZoO1xuICAgIH1cblxuICAgIFtpZD1cImhpZGVUaW1lbGluZVwiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJ0aW1lTGluZTIgYm9yZGVyLTBcIl17XG4gICAgICBkaXNwbGF5Om5vbmUgIWltcG9ydGFudDtcbiAgICAgICAgd2lkdGg6IDk1JSAhaW1wb3J0YW50O1xuICAgICAgICBtYXJnaW4tbGVmdDogMnZoO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDF2aDtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMXZoO1xuICAgIH1cblxuICAgIFtjbGFzc3M9XCJjYXJkIGJvcmRlci0wIGNhcmRzRGl2XCJde1xuICAgICAgd2lkdGg6IDgwdmggIWltcG9ydGFudDtcbiAgICAgIG1hcmdpbjogYXV0byAhaW1wb3J0YW50O1xuXG4gICAgfVxuICAgIFxuICAgIFtjbGFzcz1cImNhbnZhc0NoYXJ0XCJde1xuICAgICAgZGlzcGxheTogaW5oZXJpdCAhaW1wb3J0YW50O1xuICAgICAgICB3aWR0aDogYXV0byAhaW1wb3J0YW50O1xuICAgICAgIG1hcmdpbi10b3A6IDJ2aCAhaW1wb3J0YW50O1xuICAgICAgICBkaXNwbGF5OnN0aWNreTtcbiAgICAgICAgb3ZlcmZsb3c6IHNjcm9sbDtcbiAgICB9XG59XG5cblxuLmNzc2xvYWQtY29udGFpbmVyIHtcblx0d2lkdGg6IDExN3B4O1xuXHRtYXJnaW46IDAgYXV0bztcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTEge1xuXHRoZWlnaHQ6IDExN3B4O1xuXHR3aWR0aDogMTE3cHg7XG5cdGJhY2tncm91bmQ6IHJnYig5Nyw0NiwxNDEpO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtMiB7XG5cdGhlaWdodDogOTdweDtcblx0d2lkdGg6IDk3cHg7XG5cdGJhY2tncm91bmQ6IHJnYigxOTQsMzQsMTM0KTtcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTMge1xuXHRoZWlnaHQ6IDc4cHg7XG5cdHdpZHRoOiA3OHB4O1xuXHRiYWNrZ3JvdW5kOiByZ2IoMjM0LDM0LDk0KTtcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTQge1xuXHRoZWlnaHQ6IDU4cHg7XG5cdHdpZHRoOiA1OHB4O1xuXHRiYWNrZ3JvdW5kOiByZ2IoMjM3LDkxLDUzKTtcbn1cblxuLmNzc2xvYWQtY2lyY2xlLTUge1xuXHRoZWlnaHQ6IDM5cHg7XG5cdHdpZHRoOiAzOXB4O1xuXHRiYWNrZ3JvdW5kOiByZ2IoMjQ1LDE4MSw0Nik7XG59XG5cbi5jc3Nsb2FkLWNpcmNsZS02IHtcblx0aGVpZ2h0OiAxOXB4O1xuXHR3aWR0aDogMTlweDtcblx0YmFja2dyb3VuZDogcmdiKDEyOSwxOTcsNjQpO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtNyB7XG5cdGhlaWdodDogMTBweDtcblx0d2lkdGg6IDEwcHg7XG5cdGJhY2tncm91bmQ6IHJnYigwLDE2MywxNTApO1xufVxuXG4uY3NzbG9hZC1jaXJjbGUtOCB7XG5cdGhlaWdodDogNXB4O1xuXHR3aWR0aDogNXB4O1xuXHRiYWNrZ3JvdW5kOiByZ2IoMjIsMTE2LDE4OCk7XG59XG5cbi5jc3Nsb2FkLWNpcmNsZS0xLFxuLmNzc2xvYWQtY2lyY2xlLTIsXG4uY3NzbG9hZC1jaXJjbGUtMyxcbi5jc3Nsb2FkLWNpcmNsZS00LFxuLmNzc2xvYWQtY2lyY2xlLTUsXG4uY3NzbG9hZC1jaXJjbGUtNixcbi5jc3Nsb2FkLWNpcmNsZS03LFxuLmNzc2xvYWQtY2lyY2xlLTgge1xuXHRib3JkZXItYm90dG9tOiBub25lO1xuXHRib3JkZXItcmFkaXVzOiA1MCU7XG5cdFx0LW8tYm9yZGVyLXJhZGl1czogNTAlO1xuXHRcdC1tcy1ib3JkZXItcmFkaXVzOiA1MCU7XG5cdFx0LXdlYmtpdC1ib3JkZXItcmFkaXVzOiA1MCU7XG5cdFx0LW1vei1ib3JkZXItcmFkaXVzOiA1MCU7XG5cdGJveC1zaGFkb3c6IDFweCAxcHggMXB4IHJnYmEoMCwwLDAsMC4xKTtcblx0XHQtby1ib3gtc2hhZG93OiAxcHggMXB4IDFweCByZ2JhKDAsMCwwLDAuMSk7XG5cdFx0LW1zLWJveC1zaGFkb3c6IDFweCAxcHggMXB4IHJnYmEoMCwwLDAsMC4xKTtcblx0XHQtd2Via2l0LWJveC1zaGFkb3c6IDFweCAxcHggMXB4IHJnYmEoMCwwLDAsMC4xKTtcblx0XHQtbW96LWJveC1zaGFkb3c6IDFweCAxcHggMXB4IHJnYmEoMCwwLDAsMC4xKTtcblx0YW5pbWF0aW9uLW5hbWU6IGNzc2xvYWQtc3Bpbjtcblx0XHQtby1hbmltYXRpb24tbmFtZTogY3NzbG9hZC1zcGluO1xuXHRcdC1tcy1hbmltYXRpb24tbmFtZTogY3NzbG9hZC1zcGluO1xuXHRcdC13ZWJraXQtYW5pbWF0aW9uLW5hbWU6IGNzc2xvYWQtc3Bpbjtcblx0XHQtbW96LWFuaW1hdGlvbi1uYW1lOiBjc3Nsb2FkLXNwaW47XG5cdGFuaW1hdGlvbi1kdXJhdGlvbjogNDYwMG1zO1xuXHRcdC1vLWFuaW1hdGlvbi1kdXJhdGlvbjogNDYwMG1zO1xuXHRcdC1tcy1hbmltYXRpb24tZHVyYXRpb246IDQ2MDBtcztcblx0XHQtd2Via2l0LWFuaW1hdGlvbi1kdXJhdGlvbjogNDYwMG1zO1xuXHRcdC1tb3otYW5pbWF0aW9uLWR1cmF0aW9uOiA0NjAwbXM7XG5cdGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuXHRcdC1vLWFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuXHRcdC1tcy1hbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcblx0XHQtd2Via2l0LWFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuXHRcdC1tb3otYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG5cdGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcblx0XHQtby1hbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG5cdFx0LW1zLWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcblx0XHQtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcblx0XHQtbW96LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcbn1cblxuXG5cbkBrZXlmcmFtZXMgY3NzbG9hZC1zcGluIHtcblx0ZnJvbSB7XG5cdFx0dHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG5cdH1cblx0dG8ge1xuXHRcdHRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7XG5cdH1cbn1cblxuQC1vLWtleWZyYW1lcyBjc3Nsb2FkLXNwaW4ge1xuXHRmcm9tIHtcblx0XHQtby10cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTtcblx0fVxuXHR0byB7XG5cdFx0LW8tdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcblx0fVxufVxuXG5ALW1zLWtleWZyYW1lcyBjc3Nsb2FkLXNwaW4ge1xuXHRmcm9tIHtcblx0XHQtbXMtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG5cdH1cblx0dG8ge1xuXHRcdC1tcy10cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuXHR9XG59XG5cbkAtd2Via2l0LWtleWZyYW1lcyBjc3Nsb2FkLXNwaW4ge1xuXHRmcm9tIHtcblx0XHQtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuXHR9XG5cdHRvIHtcblx0XHQtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7XG5cdH1cbn1cblxuQC1tb3ota2V5ZnJhbWVzIGNzc2xvYWQtc3BpbiB7XG5cdGZyb20ge1xuXHRcdC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XG5cdH1cblx0dG8ge1xuXHRcdC1tb3otdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcblx0fVxufVxuIl19 */"]
     });
     /*@__PURE__*/
 
@@ -2591,13 +2656,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _filter_filter_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-    /*! ../filter/filter.component */
-    "./src/app/filter/filter.component.ts");
-    /* harmony import */
-
-
-    var _india_state_wise_india_state_wise_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _india_state_wise_india_state_wise_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ../india-state-wise/india-state-wise.component */
     "./src/app/india-state-wise/india-state-wise.component.ts");
 
@@ -2621,7 +2680,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_header_cell_46_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Name");
 
@@ -2649,7 +2708,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_cell_48_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Total");
 
@@ -2659,7 +2718,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_header_cell_50_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Total Cases");
 
@@ -2693,7 +2752,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_cell_52_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -2713,7 +2772,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_header_cell_54_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Active Cases");
 
@@ -2743,7 +2802,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_cell_56_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -2763,7 +2822,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_header_cell_58_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Cured");
 
@@ -2797,7 +2856,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_cell_60_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -2817,7 +2876,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_header_cell_62_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-header-cell", 34);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Deaths");
 
@@ -2851,7 +2910,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_cell_64_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-footer-cell", 35);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
 
@@ -2883,7 +2942,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function DataComponent_mat_footer_row_67_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mat-footer-row", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "mat-footer-row", 36);
       }
 
       if (rf & 2) {
@@ -2940,7 +2999,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "getCalculation",
         value: function getCalculation() {
           return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
-            var _this7 = this;
+            var _this8 = this;
 
             return regeneratorRuntime.wrap(function _callee2$(_context2) {
               while (1) {
@@ -2949,32 +3008,32 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     console.log(this.myDate);
                     _context2.next = 3;
                     return this._getdata.getJsonData().subscribe(function (data) {
-                      _this7.dataJson = data;
-                      _this7.globalData = _this7.dataJson.Global;
-                      _this7.refreshDate = _this7.dataJson.Date;
-                      _this7.countryWiseData = _this7.dataJson.Countries;
-                      console.log(_this7.countryWiseData);
-                      _this7.countryWiseData = _this7.countryWiseData.sort(function (x, y) {
+                      _this8.dataJson = data;
+                      _this8.globalData = _this8.dataJson.Global;
+                      _this8.refreshDate = _this8.dataJson.Date;
+                      _this8.countryWiseData = _this8.dataJson.Countries;
+                      console.log(_this8.countryWiseData);
+                      _this8.countryWiseData = _this8.countryWiseData.sort(function (x, y) {
                         return y.TotalConfirmed - x.TotalConfirmed;
                       });
-                      _this7.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](_this7.countryWiseData);
-                      _this7.dataSource.sort = _this7.sort;
-                      _this7.totalCases = _this7.countryWiseData.map(function (t) {
+                      _this8.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](_this8.countryWiseData);
+                      _this8.dataSource.sort = _this8.sort;
+                      _this8.totalCases = _this8.countryWiseData.map(function (t) {
                         return t.TotalConfirmed;
                       }).reduce(function (acc, value) {
                         return acc + value;
                       }, 0);
-                      _this7.Cured = _this7.countryWiseData.map(function (t) {
+                      _this8.Cured = _this8.countryWiseData.map(function (t) {
                         return t.TotalRecovered;
                       }).reduce(function (acc, value) {
                         return acc + value;
                       }, 0);
-                      _this7.Deaths = _this7.countryWiseData.map(function (t) {
+                      _this8.Deaths = _this8.countryWiseData.map(function (t) {
                         return t.TotalDeaths;
                       }).reduce(function (acc, value) {
                         return acc + value;
                       }, 0);
-                      _this7.activeCases = _this7.totalCases - _this7.Cured;
+                      _this8.activeCases = _this8.totalCases - _this8.Cured;
                     });
 
                   case 3:
@@ -3008,9 +3067,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.sort = _t.first);
         }
       },
-      decls: 71,
+      decls: 70,
       vars: 23,
-      consts: [["width", "100%", "direction", "left", 2, "color", "white"], [1, "dropdown", 2, "display", "none"], ["value", "", "disabled", "", "selected", "", "hidden", ""], [4, "ngFor", "ngForOf"], [1, "overallDiv", 2, "width", "100%"], [1, "leftDiv"], [2, "display", "block", "text-align", "center", "height", "15%", "color", "#bb86fc", "font-size", "large"], [1, "matt"], [2, "text-align", "center", "color", "#018716"], [2, "text-align", "center"], [2, "text-align", "center", "color", "#6200ee"], [2, "text-align", "center", "color", "#018786"], [2, "text-align", "center", "color", "#b00020"], [1, "mainDiv"], [1, "primaryDiv"], [2, "color", "#bb86fc", "font-size", "xx-large", "margin-top", "8px", "margin-left", "2vh"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "left", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "background-color", "#1F1B24", 3, "keyup"], [2, "border-color", "#121212"], [1, "example-container", "mat-elevation-z8", 2, "overflow", "auto"], ["matSort", "", "matSortDisableClear", "true", "matSortStart", "asc", 1, "mat-table", 2, "border-radius", "3vh", 3, "dataSource"], ["matColumnDef", "Name", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc ;", "mat-sort-header", "", 4, "matHeaderCellDef"], [4, "matCellDef"], ["style", "background-color:#1F1B24; color:#bb86fc ;", 4, "matFooterCellDef"], ["matColumnDef", "TotalCases", "sticky", ""], [3, "color", 4, "matCellDef"], ["matColumnDef", "ActiveCases", "sticky", ""], ["matColumnDef", "Cured", "sticky", ""], ["matColumnDef", "Deaths", "sticky", ""], [4, "matHeaderRowDef", "matHeaderRowDefSticky"], [4, "matRowDef", "matRowDefColumns"], [3, "hidden", 4, "matFooterRowDef", "matFooterRowDefSticky"], [1, "filter"], [2, "width", "100%", "height", "100%"], ["id", "india"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc"], [2, "background-color", "#1F1B24", "color", "#bb86fc"], [3, "hidden"]],
+      consts: [["width", "100%", "direction", "left", 2, "color", "white"], [1, "dropdown", 2, "display", "none"], ["value", "", "disabled", "", "selected", "", "hidden", ""], [4, "ngFor", "ngForOf"], [1, "overallDiv", 2, "width", "100%"], [1, "leftDiv"], [2, "display", "block", "text-align", "center", "height", "15%", "color", "#bb86fc", "font-size", "large"], [1, "matt"], [2, "text-align", "center", "color", "#018716"], [2, "text-align", "center"], [2, "text-align", "center", "color", "#6200ee"], [2, "text-align", "center", "color", "#018786"], [2, "text-align", "center", "color", "#b00020"], [1, "mainDiv"], [1, "primaryDiv"], [2, "color", "#bb86fc", "font-size", "xx-large", "margin-top", "8px", "margin-left", "2vh"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "left", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "background-color", "#1F1B24", 3, "keyup"], [2, "border-color", "#121212"], [1, "example-container", "mat-elevation-z8", 2, "overflow", "auto"], ["matSort", "", "matSortDisableClear", "true", "matSortStart", "asc", 1, "mat-table", 2, "border-radius", "3vh", 3, "dataSource"], ["matColumnDef", "Name", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc ;", "mat-sort-header", "", 4, "matHeaderCellDef"], [4, "matCellDef"], ["style", "background-color:#1F1B24; color:#bb86fc ;", 4, "matFooterCellDef"], ["matColumnDef", "TotalCases", "sticky", ""], [3, "color", 4, "matCellDef"], ["matColumnDef", "ActiveCases", "sticky", ""], ["matColumnDef", "Cured", "sticky", ""], ["matColumnDef", "Deaths", "sticky", ""], [4, "matHeaderRowDef", "matHeaderRowDefSticky"], [4, "matRowDef", "matRowDefColumns"], [3, "hidden", 4, "matFooterRowDef", "matFooterRowDefSticky"], [2, "width", "100%", "height", "100%"], ["id", "india"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc"], [2, "background-color", "#1F1B24", "color", "#bb86fc"], [3, "hidden"]],
       template: function DataComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "marquee", 0);
@@ -3213,11 +3272,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](68, "app-filter", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](68, "div", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "div", 33);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](70, "app-india-state-wise", 34);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](69, "app-india-state-wise", 33);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         }
@@ -3264,7 +3321,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matFooterRowDef", ctx.tableColumns)("matFooterRowDefSticky", true);
         }
       },
-      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["ɵangular_packages_forms_forms_x"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardFooter"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTable"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSort"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterRowDef"], _filter_filter_component__WEBPACK_IMPORTED_MODULE_10__["FilterComponent"], _india_state_wise_india_state_wise_component__WEBPACK_IMPORTED_MODULE_11__["IndiaStateWiseComponent"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCell"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSortHeader"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterRow"]],
+      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["ɵangular_packages_forms_forms_x"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardFooter"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTable"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSort"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterRowDef"], _india_state_wise_india_state_wise_component__WEBPACK_IMPORTED_MODULE_10__["IndiaStateWiseComponent"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCell"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSortHeader"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatFooterRow"]],
       pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["DecimalPipe"]],
       styles: ["[_ngcontent-%COMP%]::-webkit-scrollbar {\n  width: 5px;\n}\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n  background: #19191c; \n}\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n  background: #8a77fc; \n}\n\n\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n  background: #555; \n}\n\n.mat-column-Name[_ngcontent-%COMP%] {\n  word-wrap: break-word !important;\n  white-space: unset !important;\n  flex: 0 0 25% !important;\n  width: 25% !important;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n\n  word-break: break-word;\n\n  -ms-hyphens: auto;\n  -webkit-hyphens: auto;\n  hyphens: auto;\n}\n\n.mat-column-TotalCases[_ngcontent-%COMP%] {\n  word-wrap: break-word !important;\n  white-space: unset !important;\n  flex: 0 0 20% !important;\n  width: 20% !important;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n\n  word-break: break-word;\n\n  -ms-hyphens: auto;\n  -webkit-hyphens: auto;\n  hyphens: auto;\n}\n\n.mat-column-ActiveCases[_ngcontent-%COMP%] {\n  word-wrap: break-word !important;\n  white-space: unset !important;\n  flex: 0 0 20% !important;\n  width: 20% !important;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n\n  word-break: break-word;\n\n  -ms-hyphens: auto;\n  -webkit-hyphens: auto;\n  hyphens: auto;\n}\n\n.mat-column-Cured[_ngcontent-%COMP%] {\n  word-wrap: break-word !important;\n  white-space: unset !important;\n  flex: 0 0 20% !important;\n  width: 20% !important;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n\n  word-break: break-word;\n\n  -ms-hyphens: auto;\n  -webkit-hyphens: auto;\n  hyphens: auto;\n}\n\n.example-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction:column;\n    height: 50vh;   \n    position: relative;    \n    \n    margin-left: 1vh;\n    margin-right: 1vh;\n    margin-bottom:10px;\n  }\n\n.mainDiv[_ngcontent-%COMP%]{       \n    border-style: solid;\n    border-radius: 2vh;\n    position: relative;  \n    margin-left: 0vh;\n    margin-right: 2vh;\n    width: 75%;\n    float: right;\n    margin-top:10px;    \n  }\n\n.leftDiv[_ngcontent-%COMP%]{   \n    padding-top: 20px; \n    border-radius: 2vh;\n    border-style:solid;    \n    position: relative;\n    margin-left: 2vh;\n    margin-right: 0vh;\n    width: 22%;\n    float: left;\n    margin-top:10px;\n    height: 60vh;\n    overflow: none;\n    border-radius: 3vh; \n    margin-bottom: 10px;\n  }\n\n@media only screen and (max-width: 768px) {\n    \n    [class=\"mainDiv\"][_ngcontent-%COMP%]{\n      width: 97%;\n      margin-left: 1%;\n      margin-right: 1%;\n      \n      height: 80%;\n    }\n\n    [class=\"searchText\"][_ngcontent-%COMP%]{\n      width: 120%;\n      \n    }\n\n    [class=\"primaryDiv\"][_ngcontent-%COMP%]{\n      width: 80%;      \n      margin-left: 0vh;\n    }\n\n    [class=\"example-container\"][_ngcontent-%COMP%]{\n      width: 100%;\n      overflow-y: scroll;\n      overflow-x: scroll;\n    }\n\n\n    [class=\"leftDiv\"][_ngcontent-%COMP%] {\n      width: 90%;\n      height: 20%;\n      margin-left: 5%;\n      margin-right: 5%;\n      padding-bottom: 10px;\n    }\n    [class=\"overallDiv\"][_ngcontent-%COMP%]{\n      overflow-x: none;\n    }\n    [class=\"matt\"][_ngcontent-%COMP%]{\n      margin-top:0px;\n      margin-left: 0px;\n      margin-right: 0px;\n      \n    }\n    [class=\"filter\"][_ngcontent-%COMP%]{\n      display: none;\n    }\n\n  }\n\n.matt[_ngcontent-%COMP%]{\n      color: white;\n      background-color: #212121;      \n      margin-top:2px;\n      margin-left: 5px;\n      margin-right: 5px;\n      height: 20%;\n  }\n\n.filter[_ngcontent-%COMP%]{\n   border-style: round;\n   position: relative;\n   margin-left: 2vh;\n   margin-right: 0vh;\n   width: 22%;\n   float: left;\n   margin-top:10px;\n   \n   overflow: none;\n  }\n\n.primaryDiv[_ngcontent-%COMP%]{    \n    height: 10vh;\n  }\n\n.mat-row[_ngcontent-%COMP%]:nth-child(even){\n    background-color:#121212;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%] {\n        color: white;\n    }\n\n.mat-row[_ngcontent-%COMP%]:nth-child(odd){\n    background-color:#212121;\n    color:#cf6679 ;\n    }\n\n.mat-cell[_ngcontent-%COMP%], .mat-header-cell[_ngcontent-%COMP%] {\n     \n      word-wrap: break-word;\n    \n    }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGF0YS9kYXRhLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUEsVUFBVTs7QUFDVjtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQSxXQUFXOztBQUNYO0VBQ0UsbUJBQW1CO0FBQ3JCOztBQUVBLG9CQUFvQjs7QUFDcEI7RUFDRSxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxnQ0FBZ0M7RUFDaEMsNkJBQTZCO0VBQzdCLHdCQUF3QjtFQUN4QixxQkFBcUI7RUFDckIseUJBQXlCO0VBQ3pCLHFCQUFxQjs7RUFFckIsc0JBQXNCOztFQUV0QixpQkFBaUI7RUFFakIscUJBQXFCO0VBQ3JCLGFBQWE7QUFDZjs7QUFDQTtFQUNFLGdDQUFnQztFQUNoQyw2QkFBNkI7RUFDN0Isd0JBQXdCO0VBQ3hCLHFCQUFxQjtFQUNyQix5QkFBeUI7RUFDekIscUJBQXFCOztFQUVyQixzQkFBc0I7O0VBRXRCLGlCQUFpQjtFQUVqQixxQkFBcUI7RUFDckIsYUFBYTtBQUNmOztBQUVBO0VBQ0UsZ0NBQWdDO0VBQ2hDLDZCQUE2QjtFQUM3Qix3QkFBd0I7RUFDeEIscUJBQXFCO0VBQ3JCLHlCQUF5QjtFQUN6QixxQkFBcUI7O0VBRXJCLHNCQUFzQjs7RUFFdEIsaUJBQWlCO0VBRWpCLHFCQUFxQjtFQUNyQixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxnQ0FBZ0M7RUFDaEMsNkJBQTZCO0VBQzdCLHdCQUF3QjtFQUN4QixxQkFBcUI7RUFDckIseUJBQXlCO0VBQ3pCLHFCQUFxQjs7RUFFckIsc0JBQXNCOztFQUV0QixpQkFBaUI7RUFFakIscUJBQXFCO0VBQ3JCLGFBQWE7QUFDZjs7QUFFQTtJQUNJLGFBQWE7SUFDYixxQkFBcUI7SUFDckIsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQjtzQkFDa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixrQkFBa0I7RUFDcEI7O0FBRUE7SUFDRSxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBQ2xCLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLFVBQVU7SUFDVixZQUFZO0lBQ1osZUFBZTtFQUNqQjs7QUFHQTtJQUNFLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLFVBQVU7SUFDVixXQUFXO0lBQ1gsZUFBZTtJQUNmLFlBQVk7SUFDWixjQUFjO0lBQ2Qsa0JBQWtCO0lBQ2xCLG1CQUFtQjtFQUNyQjs7QUFFQTtJQUNFLHVCQUF1QjtJQUN2QjtNQUNFLFVBQVU7TUFDVixlQUFlO01BQ2YsZ0JBQWdCOztNQUVoQixXQUFXO0lBQ2I7O0lBRUE7TUFDRSxXQUFXOztJQUViOztJQUVBO01BQ0UsVUFBVTtNQUNWLGdCQUFnQjtJQUNsQjs7SUFFQTtNQUNFLFdBQVc7TUFDWCxrQkFBa0I7TUFDbEIsa0JBQWtCO0lBQ3BCOzs7SUFHQTtNQUNFLFVBQVU7TUFDVixXQUFXO01BQ1gsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixvQkFBb0I7SUFDdEI7SUFDQTtNQUNFLGdCQUFnQjtJQUNsQjtJQUNBO01BQ0UsY0FBYztNQUNkLGdCQUFnQjtNQUNoQixpQkFBaUI7O0lBRW5CO0lBQ0E7TUFDRSxhQUFhO0lBQ2Y7O0VBRUY7O0FBRUE7TUFDSSxZQUFZO01BQ1oseUJBQXlCO01BQ3pCLGNBQWM7TUFDZCxnQkFBZ0I7TUFDaEIsaUJBQWlCO01BQ2pCLFdBQVc7RUFDZjs7QUFFQTtHQUNDLG1CQUFtQjtHQUNuQixrQkFBa0I7R0FDbEIsZ0JBQWdCO0dBQ2hCLGlCQUFpQjtHQUNqQixVQUFVO0dBQ1YsV0FBVztHQUNYLGVBQWU7O0dBRWYsY0FBYztFQUNmOztBQUNBO0lBQ0UsWUFBWTtFQUNkOztBQUdBO0lBQ0Usd0JBQXdCO0lBQ3hCLGNBQWM7SUFDZDs7QUFFQTtRQUNJLFlBQVk7SUFDaEI7O0FBR0o7SUFDSSx3QkFBd0I7SUFDeEIsY0FBYztJQUNkOztBQUVBOztNQUVFLHFCQUFxQjs7SUFFdkIiLCJmaWxlIjoic3JjL2FwcC9kYXRhL2RhdGEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICB3aWR0aDogNXB4O1xufVxuXG4vKiBUcmFjayAqL1xuOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XG4gIGJhY2tncm91bmQ6ICMxOTE5MWM7IFxufVxuIFxuLyogSGFuZGxlICovXG46Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iIHtcbiAgYmFja2dyb3VuZDogIzhhNzdmYzsgXG59XG5cbi8qIEhhbmRsZSBvbiBob3ZlciAqL1xuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7XG4gIGJhY2tncm91bmQ6ICM1NTU7IFxufVxuXG4ubWF0LWNvbHVtbi1OYW1lIHtcbiAgd29yZC13cmFwOiBicmVhay13b3JkICFpbXBvcnRhbnQ7XG4gIHdoaXRlLXNwYWNlOiB1bnNldCAhaW1wb3J0YW50O1xuICBmbGV4OiAwIDAgMjUlICFpbXBvcnRhbnQ7XG4gIHdpZHRoOiAyNSUgIWltcG9ydGFudDtcbiAgb3ZlcmZsb3ctd3JhcDogYnJlYWstd29yZDtcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xuXG4gIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7XG5cbiAgLW1zLWh5cGhlbnM6IGF1dG87XG4gIC1tb3otaHlwaGVuczogYXV0bztcbiAgLXdlYmtpdC1oeXBoZW5zOiBhdXRvO1xuICBoeXBoZW5zOiBhdXRvO1xufVxuLm1hdC1jb2x1bW4tVG90YWxDYXNlcyB7XG4gIHdvcmQtd3JhcDogYnJlYWstd29yZCAhaW1wb3J0YW50O1xuICB3aGl0ZS1zcGFjZTogdW5zZXQgIWltcG9ydGFudDtcbiAgZmxleDogMCAwIDIwJSAhaW1wb3J0YW50O1xuICB3aWR0aDogMjAlICFpbXBvcnRhbnQ7XG4gIG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7XG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcblxuICB3b3JkLWJyZWFrOiBicmVhay13b3JkO1xuXG4gIC1tcy1oeXBoZW5zOiBhdXRvO1xuICAtbW96LWh5cGhlbnM6IGF1dG87XG4gIC13ZWJraXQtaHlwaGVuczogYXV0bztcbiAgaHlwaGVuczogYXV0bztcbn1cblxuLm1hdC1jb2x1bW4tQWN0aXZlQ2FzZXMge1xuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQgIWltcG9ydGFudDtcbiAgd2hpdGUtc3BhY2U6IHVuc2V0ICFpbXBvcnRhbnQ7XG4gIGZsZXg6IDAgMCAyMCUgIWltcG9ydGFudDtcbiAgd2lkdGg6IDIwJSAhaW1wb3J0YW50O1xuICBvdmVyZmxvdy13cmFwOiBicmVhay13b3JkO1xuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG5cbiAgd29yZC1icmVhazogYnJlYWstd29yZDtcblxuICAtbXMtaHlwaGVuczogYXV0bztcbiAgLW1vei1oeXBoZW5zOiBhdXRvO1xuICAtd2Via2l0LWh5cGhlbnM6IGF1dG87XG4gIGh5cGhlbnM6IGF1dG87XG59XG5cbi5tYXQtY29sdW1uLUN1cmVkIHtcbiAgd29yZC13cmFwOiBicmVhay13b3JkICFpbXBvcnRhbnQ7XG4gIHdoaXRlLXNwYWNlOiB1bnNldCAhaW1wb3J0YW50O1xuICBmbGV4OiAwIDAgMjAlICFpbXBvcnRhbnQ7XG4gIHdpZHRoOiAyMCUgIWltcG9ydGFudDtcbiAgb3ZlcmZsb3ctd3JhcDogYnJlYWstd29yZDtcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xuXG4gIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7XG5cbiAgLW1zLWh5cGhlbnM6IGF1dG87XG4gIC1tb3otaHlwaGVuczogYXV0bztcbiAgLXdlYmtpdC1oeXBoZW5zOiBhdXRvO1xuICBoeXBoZW5zOiBhdXRvO1xufVxuXG4uZXhhbXBsZS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246Y29sdW1uO1xuICAgIGhlaWdodDogNTB2aDsgICBcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7ICAgIFxuICAgIC8qIG1heC1oZWlnaHQ6IDUwcHg7XG4gICAgbWluLXdpZHRoOiAzMHB4OyAqL1xuICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgbWFyZ2luLXJpZ2h0OiAxdmg7XG4gICAgbWFyZ2luLWJvdHRvbToxMHB4O1xuICB9XG5cbiAgLm1haW5EaXZ7ICAgICAgIFxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XG4gICAgYm9yZGVyLXJhZGl1czogMnZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsgIFxuICAgIG1hcmdpbi1sZWZ0OiAwdmg7XG4gICAgbWFyZ2luLXJpZ2h0OiAydmg7XG4gICAgd2lkdGg6IDc1JTtcbiAgICBmbG9hdDogcmlnaHQ7XG4gICAgbWFyZ2luLXRvcDoxMHB4OyAgICBcbiAgfVxuXG4gIFxuICAubGVmdERpdnsgICBcbiAgICBwYWRkaW5nLXRvcDogMjBweDsgXG4gICAgYm9yZGVyLXJhZGl1czogMnZoO1xuICAgIGJvcmRlci1zdHlsZTpzb2xpZDsgICAgXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIG1hcmdpbi1sZWZ0OiAydmg7XG4gICAgbWFyZ2luLXJpZ2h0OiAwdmg7XG4gICAgd2lkdGg6IDIyJTtcbiAgICBmbG9hdDogbGVmdDtcbiAgICBtYXJnaW4tdG9wOjEwcHg7XG4gICAgaGVpZ2h0OiA2MHZoO1xuICAgIG92ZXJmbG93OiBub25lO1xuICAgIGJvcmRlci1yYWRpdXM6IDN2aDsgXG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgfVxuXG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAvKiBGb3IgbW9iaWxlIHBob25lczogKi9cbiAgICBbY2xhc3M9XCJtYWluRGl2XCJde1xuICAgICAgd2lkdGg6IDk3JTtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxJTtcbiAgICAgIG1hcmdpbi1yaWdodDogMSU7XG4gICAgICBcbiAgICAgIGhlaWdodDogODAlO1xuICAgIH1cblxuICAgIFtjbGFzcz1cInNlYXJjaFRleHRcIl17XG4gICAgICB3aWR0aDogMTIwJTtcbiAgICAgIFxuICAgIH1cblxuICAgIFtjbGFzcz1cInByaW1hcnlEaXZcIl17XG4gICAgICB3aWR0aDogODAlOyAgICAgIFxuICAgICAgbWFyZ2luLWxlZnQ6IDB2aDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJleGFtcGxlLWNvbnRhaW5lclwiXXtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgb3ZlcmZsb3cteTogc2Nyb2xsO1xuICAgICAgb3ZlcmZsb3cteDogc2Nyb2xsO1xuICAgIH1cblxuXG4gICAgW2NsYXNzPVwibGVmdERpdlwiXSB7XG4gICAgICB3aWR0aDogOTAlO1xuICAgICAgaGVpZ2h0OiAyMCU7XG4gICAgICBtYXJnaW4tbGVmdDogNSU7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDUlO1xuICAgICAgcGFkZGluZy1ib3R0b206IDEwcHg7XG4gICAgfVxuICAgIFtjbGFzcz1cIm92ZXJhbGxEaXZcIl17XG4gICAgICBvdmVyZmxvdy14OiBub25lO1xuICAgIH1cbiAgICBbY2xhc3M9XCJtYXR0XCJde1xuICAgICAgbWFyZ2luLXRvcDowcHg7XG4gICAgICBtYXJnaW4tbGVmdDogMHB4O1xuICAgICAgbWFyZ2luLXJpZ2h0OiAwcHg7XG4gICAgICBcbiAgICB9XG4gICAgW2NsYXNzPVwiZmlsdGVyXCJde1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG5cbiAgfVxuICBcbiAgLm1hdHR7XG4gICAgICBjb2xvcjogd2hpdGU7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjEyMTIxOyAgICAgIFxuICAgICAgbWFyZ2luLXRvcDoycHg7XG4gICAgICBtYXJnaW4tbGVmdDogNXB4O1xuICAgICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gICAgICBoZWlnaHQ6IDIwJTtcbiAgfVxuICBcbiAgLmZpbHRlcntcbiAgIGJvcmRlci1zdHlsZTogcm91bmQ7XG4gICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICBtYXJnaW4tbGVmdDogMnZoO1xuICAgbWFyZ2luLXJpZ2h0OiAwdmg7XG4gICB3aWR0aDogMjIlO1xuICAgZmxvYXQ6IGxlZnQ7XG4gICBtYXJnaW4tdG9wOjEwcHg7XG4gICBcbiAgIG92ZXJmbG93OiBub25lO1xuICB9XG4gIC5wcmltYXJ5RGl2eyAgICBcbiAgICBoZWlnaHQ6IDEwdmg7XG4gIH1cbiAgXG5cbiAgLm1hdC1yb3c6bnRoLWNoaWxkKGV2ZW4pe1xuICAgIGJhY2tncm91bmQtY29sb3I6IzEyMTIxMjtcbiAgICBjb2xvcjojY2Y2Njc5IDtcbiAgICB9XG5cbiAgICAubWF0LWNlbGwge1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgfVxuXG4gICAgXG4ubWF0LXJvdzpudGgtY2hpbGQob2RkKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMyMTIxMjE7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsLCAubWF0LWhlYWRlci1jZWxsIHtcbiAgICAgXG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgXG4gICAgfSJdfQ== */"]
     });
@@ -3978,20 +4035,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getStateCalculation",
         value: function getStateCalculation() {
-          var _this8 = this;
+          var _this9 = this;
 
           this._getdata.getCountryWiseStateDataIndia().subscribe(function (data) {
             console.log(data);
-            _this8.stateCountry = data.statewise;
-            _this8.stateCountryTotal = _this8.stateCountry.reverse().pop();
-            _this8.totalCases = _this8.stateCountryTotal.confirmed;
-            _this8.activeCases = _this8.stateCountryTotal.active;
-            _this8.Cured = _this8.stateCountryTotal.recovered;
-            _this8.Deaths = _this8.stateCountryTotal.deaths;
+            _this9.stateCountry = data.statewise;
+            _this9.stateCountryTotal = _this9.stateCountry.reverse().pop();
+            _this9.totalCases = _this9.stateCountryTotal.confirmed;
+            _this9.activeCases = _this9.stateCountryTotal.active;
+            _this9.Cured = _this9.stateCountryTotal.recovered;
+            _this9.Deaths = _this9.stateCountryTotal.deaths;
 
-            _this8.stateCountry.reverse();
+            _this9.stateCountry.reverse();
 
-            _this8.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"](_this8.stateCountry);
+            _this9.dataSource = new _angular_material_table__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"](_this9.stateCountry);
           });
         }
       }, {
@@ -4212,27 +4269,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-    /* harmony import */
-
-
-    var ng2_charts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-    /*! ng2-charts */
-    "./node_modules/ng2-charts/__ivy_ngcc__/fesm2015/ng2-charts.js");
-    /* harmony import */
-
-
-    var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! @angular/material/slide-toggle */
     "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/slide-toggle.js");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    /* harmony import */
+
+
+    var ng2_charts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ng2-charts */
+    "./node_modules/ng2-charts/__ivy_ngcc__/fesm2015/ng2-charts.js");
     /* harmony import */
 
 
@@ -4240,27 +4297,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/material/divider */
     "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js");
 
-    function NewsComponent_input_5_Template(rf, ctx) {
+    function NewsComponent_input_9_Template(rf, ctx) {
       if (rf & 1) {
-        var _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        var _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 11);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function NewsComponent_input_5_Template_input_keyup_0_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function NewsComponent_input_9_Template_input_keyup_0_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6);
 
-          var ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+          var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-          return ctx_r3.applyFilterForState($event);
+          return ctx_r5.applyFilterForState($event);
         });
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
     }
 
-    function NewsComponent_div_6_mat_header_cell_4_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_header_cell_4_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 24);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Name");
 
@@ -4268,9 +4325,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_6_mat_cell_5_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_cell_5_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -4278,17 +4335,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var lesson_r15 = ctx.$implicit;
+        var lesson_r17 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r15.state);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r17.state);
       }
     }
 
-    function NewsComponent_div_6_mat_header_cell_7_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_header_cell_7_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Total Cases");
 
@@ -4296,7 +4353,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_6_mat_cell_8_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_cell_8_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
@@ -4308,117 +4365,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r16 = ctx.$implicit;
-
-        var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r8.totalColor);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r16.confirmed), " ");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r16.deltaconfirmed));
-      }
-    }
-
-    function NewsComponent_div_6_mat_header_cell_10_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_6_mat_cell_11_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r17 = ctx.$implicit;
-
-        var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r10.greenColor);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r17.recovered), " ");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r17.deltarecovered));
-      }
-    }
-
-    function NewsComponent_div_6_mat_header_cell_13_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_6_mat_cell_14_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
@@ -4434,75 +4383,183 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var lesson_r18 = ctx.$implicit;
 
-        var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+        var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r12.redcolor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r10.totalColor);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r18.deaths), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r18.confirmed), " ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r18.deltadeaths), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r18.deltaconfirmed));
       }
     }
 
-    function NewsComponent_div_6_mat_header_row_15_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_header_cell_10_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_10_mat_cell_11_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r19 = ctx.$implicit;
+
+        var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r12.greenColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r19.recovered), " ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r19.deltarecovered));
+      }
+    }
+
+    function NewsComponent_div_10_mat_header_cell_13_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_10_mat_cell_14_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r20 = ctx.$implicit;
+
+        var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r14.redcolor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r20.deaths), " ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r20.deltadeaths), "");
+      }
+    }
+
+    function NewsComponent_div_10_mat_header_row_15_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-header-row");
       }
     }
 
-    function NewsComponent_div_6_mat_row_16_Template(rf, ctx) {
+    function NewsComponent_div_10_mat_row_16_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-row");
       }
     }
 
-    function NewsComponent_div_6_Template(rf, ctx) {
+    function NewsComponent_div_10_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 12);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 13);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 14);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_6_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_10_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 15);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_6_mat_cell_5_Template, 2, 1, "mat-cell", 13);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 14);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_6_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_6_mat_cell_8_Template, 9, 8, "mat-cell", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_10_mat_cell_5_Template, 2, 1, "mat-cell", 16);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_6_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_10_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_6_mat_cell_11_Template, 9, 8, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 18);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_6_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_6_mat_cell_14_Template, 9, 8, "mat-cell", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_10_mat_cell_8_Template, 9, 8, "mat-cell", 19);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NewsComponent_div_6_mat_header_row_15_Template, 1, 0, "mat-header-row", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 20);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_6_mat_row_16_Template, 1, 0, "mat-row", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_10_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_10_mat_cell_11_Template, 9, 8, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 21);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_10_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_10_mat_cell_14_Template, 9, 8, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NewsComponent_div_10_mat_header_row_15_Template, 1, 0, "mat-header-row", 22);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_10_mat_row_16_Template, 1, 0, "mat-row", 23);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -4528,77 +4585,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_span_18_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_header_cell_4_Template(rf, ctx) {
       if (rf & 1) {
-        var _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 35);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_8_span_18_Template_span_click_0_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r27);
-
-          var datas_r25 = ctx.$implicit;
-
-          var ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r26.goToState(datas_r25.stateName, ctx_r26.isChecked);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "mat-divider");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var datas_r25 = ctx.$implicit;
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", datas_r25.stateName, " ");
-      }
-    }
-
-    function NewsComponent_div_8_input_19_Template(rf, ctx) {
-      if (rf & 1) {
-        var _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 41);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function NewsComponent_div_8_input_19_Template_input_keyup_0_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r29);
-
-          var ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r28.applyFilterForDistrict($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_20_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 42);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 43);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r22.chartStateData)("labels", ctx_r22.chartStateLabels)("options", ctx_r22.chartOptions)("legend", true);
-      }
-    }
-
-    function NewsComponent_div_8_div_21_mat_header_cell_4_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 24);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Name");
 
@@ -4606,9 +4595,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_cell_5_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_cell_5_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
@@ -4620,13 +4609,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r40.districtName);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r40.state);
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_header_cell_7_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_header_cell_7_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Total Cases");
 
@@ -4634,29 +4623,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_cell_8_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_cell_8_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -4664,53 +4637,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var lesson_r41 = ctx.$implicit;
 
-        var ctx_r33 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r33.totalColor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r25.totalColor);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r41.confirmed), " ");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r41.delta.confirmed), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r41.confirmed), " ");
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_header_cell_10_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_header_cell_10_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "ConfirmedToday");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_cell_11_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_cell_11_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -4718,23 +4671,121 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var lesson_r42 = ctx.$implicit;
 
-        var ctx_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r35.greenColor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r27.totalColor);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r42.recovered), " ");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r42.delta.recovered), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r42.deltaconfirmed), " ");
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_header_cell_13_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_header_cell_13_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "ActiveCases");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_11_mat_cell_14_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r43 = ctx.$implicit;
+
+        var ctx_r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r29.totalColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r43.active), " ");
+      }
+    }
+
+    function NewsComponent_div_11_mat_header_cell_16_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_11_mat_cell_17_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r44 = ctx.$implicit;
+
+        var ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r31.greenColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r44.recovered), " ");
+      }
+    }
+
+    function NewsComponent_div_11_mat_header_cell_19_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "CuredToday");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_11_mat_cell_20_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r45 = ctx.$implicit;
+
+        var ctx_r33 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r33.greenColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r45.deltarecovered), " ");
+      }
+    }
+
+    function NewsComponent_div_11_mat_header_cell_22_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths");
 
@@ -4742,7 +4793,301 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_cell_14_Template(rf, ctx) {
+    function NewsComponent_div_11_mat_cell_23_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r46 = ctx.$implicit;
+
+        var ctx_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r35.redcolor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r46.deaths), " ");
+      }
+    }
+
+    function NewsComponent_div_11_mat_header_cell_25_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "DeathsToday");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_11_mat_cell_26_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r47 = ctx.$implicit;
+
+        var ctx_r37 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r37.redcolor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r47.deltadeaths), " ");
+      }
+    }
+
+    function NewsComponent_div_11_mat_header_row_27_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-header-row");
+      }
+    }
+
+    function NewsComponent_div_11_mat_row_28_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-row");
+      }
+    }
+
+    function NewsComponent_div_11_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 29);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 13);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 14);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_11_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 15);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_11_mat_cell_5_Template, 2, 1, "mat-cell", 16);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_11_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_11_mat_cell_8_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 30);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_11_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_11_mat_cell_11_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 31);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_11_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_11_mat_cell_14_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](15, 20);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_11_mat_header_cell_16_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, NewsComponent_div_11_mat_cell_17_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](18, 32);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NewsComponent_div_11_mat_header_cell_19_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, NewsComponent_div_11_mat_cell_20_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](21, 21);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, NewsComponent_div_11_mat_header_cell_22_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, NewsComponent_div_11_mat_cell_23_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](24, 33);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, NewsComponent_div_11_mat_header_cell_25_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, NewsComponent_div_11_mat_cell_26_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](27, NewsComponent_div_11_mat_header_row_27_Template, 1, 0, "mat-header-row", 22);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](28, NewsComponent_div_11_mat_row_28_Template, 1, 0, "mat-row", 23);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r2.dataSourceDesktopState);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r2.tableColumnsDesktopState)("matHeaderRowDefSticky", true);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r2.tableColumnsDesktopState);
+      }
+    }
+
+    function NewsComponent_div_12_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 34);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 35);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartData)("labels", ctx_r3.chartLabels)("options", ctx_r3.chartOptions)("legend", true);
+      }
+    }
+
+    function NewsComponent_div_13_span_18_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 43);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_13_span_18_Template_span_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r56);
+
+          var datas_r54 = ctx.$implicit;
+
+          var ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r55.goToState(datas_r54.stateName, ctx_r55.isChecked);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "mat-divider");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var datas_r54 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", datas_r54.stateName, " ");
+      }
+    }
+
+    function NewsComponent_div_13_input_19_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "input", 49);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function NewsComponent_div_13_input_19_Template_input_keyup_0_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r58);
+
+          var ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r57.applyFilterForDistrict($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_20_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 50);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 51);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r51 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r51.chartStateData)("labels", ctx_r51.chartStateLabels)("options", ctx_r51.chartOptions)("legend", true);
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_header_cell_4_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Name");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_cell_5_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell", 55);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r69 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r69.districtName);
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_header_cell_7_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Total Cases");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_cell_8_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
@@ -4754,9 +5099,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
@@ -4770,231 +5115,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var lesson_r43 = ctx.$implicit;
+        var lesson_r70 = ctx.$implicit;
 
-        var ctx_r37 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r62 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r37.redcolor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r62.totalColor);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r43.deceased), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r70.confirmed), " ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r43.delta.deceased));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r70.delta.confirmed), " ");
       }
     }
 
-    function NewsComponent_div_8_div_21_mat_header_row_15_Template(rf, ctx) {
+    function NewsComponent_div_13_div_21_mat_header_cell_10_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-header-row");
-      }
-    }
-
-    function NewsComponent_div_8_div_21_mat_row_16_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-row");
-      }
-    }
-
-    function NewsComponent_div_8_div_21_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 44);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 10);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 11);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_8_div_21_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 45);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_8_div_21_mat_cell_5_Template, 2, 1, "mat-cell", 46);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 14);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_8_div_21_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_8_div_21_mat_cell_8_Template, 9, 8, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 17);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_8_div_21_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_8_div_21_mat_cell_11_Template, 9, 8, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 18);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_8_div_21_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_8_div_21_mat_cell_14_Template, 9, 8, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NewsComponent_div_8_div_21_mat_header_row_15_Template, 1, 0, "mat-header-row", 19);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_8_div_21_mat_row_16_Template, 1, 0, "mat-row", 20);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var ctx_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r23.dataSourceMobile);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r23.tableColumnsMobile)("matHeaderRowDefSticky", true);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r23.tableColumnsMobile);
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_4_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Name");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_cell_5_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r63 = ctx.$implicit;
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r63.districtName);
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_7_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Total Cases");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_cell_8_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r64 = ctx.$implicit;
-
-        var ctx_r48 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r48.totalColor);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r64.confirmed));
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_10_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cases Today");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_cell_11_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r65 = ctx.$implicit;
-
-        var ctx_r50 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r50.totalColor);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r65.delta.confirmed));
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_13_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Active Cases");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_cell_14_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r66 = ctx.$implicit;
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 1, lesson_r66.active));
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_16_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
 
@@ -5002,67 +5141,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_cell_17_Template(rf, ctx) {
+    function NewsComponent_div_13_div_21_mat_cell_11_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
 
       if (rf & 2) {
-        var lesson_r67 = ctx.$implicit;
+        var lesson_r71 = ctx.$implicit;
 
-        var ctx_r54 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r64 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r54.greenColor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r64.greenColor);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r67.recovered));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r71.recovered), " ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r71.delta.recovered), "");
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_header_cell_19_Template(rf, ctx) {
+    function NewsComponent_div_13_div_21_mat_header_cell_13_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured Today");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_cell_20_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var lesson_r68 = ctx.$implicit;
-
-        var ctx_r56 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r56.greenColor);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r68.delta.recovered));
-      }
-    }
-
-    function NewsComponent_div_8_div_22_mat_header_cell_22_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths");
 
@@ -5070,7 +5195,169 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_cell_23_Template(rf, ctx) {
+    function NewsComponent_div_13_div_21_mat_cell_14_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 27);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](8, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r72 = ctx.$implicit;
+
+        var ctx_r66 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r66.redcolor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, lesson_r72.deceased), " ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](8, 6, lesson_r72.delta.deceased));
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_header_row_15_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-header-row");
+      }
+    }
+
+    function NewsComponent_div_13_div_21_mat_row_16_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-row");
+      }
+    }
+
+    function NewsComponent_div_13_div_21_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 52);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 13);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 14);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_13_div_21_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 53);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_13_div_21_mat_cell_5_Template, 2, 1, "mat-cell", 54);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_13_div_21_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_13_div_21_mat_cell_8_Template, 9, 8, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 20);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_13_div_21_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_13_div_21_mat_cell_11_Template, 9, 8, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 21);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_13_div_21_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_13_div_21_mat_cell_14_Template, 9, 8, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NewsComponent_div_13_div_21_mat_header_row_15_Template, 1, 0, "mat-header-row", 22);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_13_div_21_mat_row_16_Template, 1, 0, "mat-row", 23);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r52.dataSourceMobile);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r52.tableColumnsMobile)("matHeaderRowDefSticky", true);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r52.tableColumnsMobile);
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_4_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Name");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_5_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r92 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](lesson_r92.districtName);
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_7_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Total Cases");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_8_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
@@ -5082,21 +5369,187 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var lesson_r69 = ctx.$implicit;
+        var lesson_r93 = ctx.$implicit;
 
-        var ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r77 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r58.redcolor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r77.totalColor);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r69.deceased));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r93.confirmed));
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_header_cell_25_Template(rf, ctx) {
+    function NewsComponent_div_13_div_22_mat_header_cell_10_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cases Today");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_11_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r94 = ctx.$implicit;
+
+        var ctx_r79 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r79.totalColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r94.delta.confirmed));
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_13_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Active Cases");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_14_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r95 = ctx.$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 1, lesson_r95.active));
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_16_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_17_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r96 = ctx.$implicit;
+
+        var ctx_r83 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r83.greenColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r96.recovered));
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_19_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Cured Today");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_20_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r97 = ctx.$implicit;
+
+        var ctx_r85 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r85.greenColor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r97.delta.recovered));
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_22_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_cell_23_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "number");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var lesson_r98 = ctx.$implicit;
+
+        var ctx_r87 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r87.redcolor);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r98.deceased));
+      }
+    }
+
+    function NewsComponent_div_13_div_22_mat_header_cell_25_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-header-cell", 26);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Deaths Today");
 
@@ -5104,7 +5557,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_cell_26_Template(rf, ctx) {
+    function NewsComponent_div_13_div_22_mat_cell_26_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-cell");
 
@@ -5116,105 +5569,105 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var lesson_r70 = ctx.$implicit;
+        var lesson_r99 = ctx.$implicit;
 
-        var ctx_r60 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+        var ctx_r89 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r60.redcolor);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("color", ctx_r89.redcolor);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r70.delta.deceased));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 3, lesson_r99.delta.deceased));
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_header_row_27_Template(rf, ctx) {
+    function NewsComponent_div_13_div_22_mat_header_row_27_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-header-row");
       }
     }
 
-    function NewsComponent_div_8_div_22_mat_row_28_Template(rf, ctx) {
+    function NewsComponent_div_13_div_22_mat_row_28_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-row");
       }
     }
 
-    function NewsComponent_div_8_div_22_Template(rf, ctx) {
+    function NewsComponent_div_13_div_22_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 56);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-table", 13);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](3, 14);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_8_div_22_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NewsComponent_div_13_div_22_mat_header_cell_4_Template, 2, 0, "mat-header-cell", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_8_div_22_mat_cell_5_Template, 2, 1, "mat-cell", 49);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 14);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_8_div_22_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_8_div_22_mat_cell_8_Template, 3, 5, "mat-cell", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_div_13_div_22_mat_cell_5_Template, 2, 1, "mat-cell", 57);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 50);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](6, 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_8_div_22_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, NewsComponent_div_13_div_22_mat_header_cell_7_Template, 2, 0, "mat-header-cell", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_8_div_22_mat_cell_11_Template, 3, 5, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 51);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_8_div_22_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_8_div_22_mat_cell_14_Template, 3, 3, "mat-cell", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_13_div_22_mat_cell_8_Template, 3, 5, "mat-cell", 19);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](15, 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](9, 30);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_8_div_22_mat_header_cell_16_Template, 2, 0, "mat-header-cell", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_13_div_22_mat_header_cell_10_Template, 2, 0, "mat-header-cell", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, NewsComponent_div_8_div_22_mat_cell_17_Template, 3, 5, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](18, 52);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NewsComponent_div_8_div_22_mat_header_cell_19_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, NewsComponent_div_8_div_22_mat_cell_20_Template, 3, 5, "mat-cell", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_13_div_22_mat_cell_11_Template, 3, 5, "mat-cell", 19);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](21, 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](12, 31);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, NewsComponent_div_8_div_22_mat_header_cell_22_Template, 2, 0, "mat-header-cell", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_13_div_22_mat_header_cell_13_Template, 2, 0, "mat-header-cell", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, NewsComponent_div_8_div_22_mat_cell_23_Template, 3, 5, "mat-cell", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](24, 53);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, NewsComponent_div_8_div_22_mat_header_cell_25_Template, 2, 0, "mat-header-cell", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, NewsComponent_div_8_div_22_mat_cell_26_Template, 3, 5, "mat-cell", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NewsComponent_div_13_div_22_mat_cell_14_Template, 3, 3, "mat-cell", 57);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](27, NewsComponent_div_8_div_22_mat_header_row_27_Template, 1, 0, "mat-header-row", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](15, 20);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](28, NewsComponent_div_8_div_22_mat_row_28_Template, 1, 0, "mat-row", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NewsComponent_div_13_div_22_mat_header_cell_16_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, NewsComponent_div_13_div_22_mat_cell_17_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](18, 32);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NewsComponent_div_13_div_22_mat_header_cell_19_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, NewsComponent_div_13_div_22_mat_cell_20_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](21, 21);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, NewsComponent_div_13_div_22_mat_header_cell_22_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](23, NewsComponent_div_13_div_22_mat_cell_23_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](24, 33);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, NewsComponent_div_13_div_22_mat_header_cell_25_Template, 2, 0, "mat-header-cell", 18);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, NewsComponent_div_13_div_22_mat_cell_26_Template, 3, 5, "mat-cell", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](27, NewsComponent_div_13_div_22_mat_header_row_27_Template, 1, 0, "mat-header-row", 22);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](28, NewsComponent_div_13_div_22_mat_row_28_Template, 1, 0, "mat-row", 23);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -5224,29 +5677,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+        var ctx_r53 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r24.dataSource);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r53.dataSource);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r24.tableColumns)("matHeaderRowDefSticky", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r53.tableColumns)("matHeaderRowDefSticky", true);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r24.tableColumns);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r53.tableColumns);
       }
     }
 
-    function NewsComponent_div_8_Template(rf, ctx) {
+    function NewsComponent_div_13_Template(rf, ctx) {
       if (rf & 1) {
-        var _r73 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        var _r102 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 36);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 37);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2", 2);
 
@@ -5254,24 +5707,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Show Data ");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-slide-toggle", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-slide-toggle", 4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_8_Template_mat_slide_toggle_click_6_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_13_Template_mat_slide_toggle_click_6_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r102);
 
-          var ctx_r72 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+          var ctx_r101 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-          return ctx_r72.toggleChartTable(ctx_r72.isChecked);
-        })("ngModelChange", function NewsComponent_div_8_Template_mat_slide_toggle_ngModelChange_6_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r73);
+          return ctx_r101.toggleChartTable(ctx_r101.isChecked);
+        })("ngModelChange", function NewsComponent_div_13_Template_mat_slide_toggle_ngModelChange_6_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r102);
 
-          var ctx_r74 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+          var ctx_r103 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-          return ctx_r74.isChecked = $event;
+          return ctx_r103.isChecked = $event;
         });
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5280,30 +5733,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "button", 38);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 39);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 40);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 41);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 42);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span", 43);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_8_Template_span_click_15_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r73);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_div_13_Template_span_click_15_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r102);
 
-          var ctx_r75 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+          var ctx_r104 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-          return ctx_r75.populateFormerDistrictDummy(ctx_r75.isChecked);
+          return ctx_r104.populateFormerDistrictDummy(ctx_r104.isChecked);
         });
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " All ");
@@ -5312,7 +5765,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, NewsComponent_div_8_span_18_Template, 3, 1, "span", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, NewsComponent_div_13_span_18_Template, 3, 1, "span", 44);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -5322,51 +5775,51 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NewsComponent_div_8_input_19_Template, 1, 0, "input", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NewsComponent_div_13_input_19_Template, 1, 0, "input", 45);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, NewsComponent_div_8_div_20_Template, 2, 5, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, NewsComponent_div_13_div_20_Template, 2, 5, "div", 46);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, NewsComponent_div_8_div_21_Template, 17, 4, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, NewsComponent_div_13_div_21_Template, 17, 4, "div", 47);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, NewsComponent_div_8_div_22_Template, 29, 4, "div", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, NewsComponent_div_13_div_22_Template, 29, 4, "div", 48);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
 
       if (rf & 2) {
-        var ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+        var ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx_r2.isChecked);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx_r4.isChecked);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r2.dropDownLabel, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r4.dropDownLabel, " ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.districtWiseDataNew);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r4.districtWiseDataNew);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.isFinalReady);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.isFinalReady);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.chartStateReady);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.chartStateReady);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.isFinalReady);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.isFinalReady);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r2.isFinalReady);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r4.isFinalReady);
       }
     }
 
@@ -5381,10 +5834,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.dropDownLabel = 'Select State';
         this.districtList = [];
         this.isChecked = false;
+        this.isCheckedState = false;
         this.tableColumns = ['Name', 'TotalCases', 'ConfirmedToday', 'ActiveCases', 'Cured', 'CuredToday', 'Deaths', 'DeathsToday'];
+        this.tableColumnsDesktopState = ['Name', 'TotalCases', 'ConfirmedToday', 'ActiveCases', 'Cured', 'CuredToday', 'Deaths', 'DeathsToday'];
         this.tableColumnsMobile = ['Name', 'TotalCases', 'Cured', 'Deaths'];
         this.tableColumnsMobileState = ['Name', 'TotalCases', 'Cured', 'Deaths'];
         this.isMobileState = false;
+        this.isDesktopState = false;
         this.isDistrictReady = false;
         this.isFinalReady = false;
         this.isFinalReadyMobile = false;
@@ -5392,6 +5848,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.greenColor = '#418786';
         this.totalColor = '#018716';
         this.chartReady = false;
+        this.chartStateReadyDesktop = false;
         this.chartStateReady = false;
         this.dataready = false;
         this.chartOptions = {
@@ -5451,11 +5908,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(NewsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this9 = this;
+          var _this10 = this;
 
           this._getdata.getCountryWiseDistrictDataIndia().subscribe(function (data) {
-            _this9.districtWiseData = data;
-            _this9.districtWiseDataNew = Object.entries(_this9.districtWiseData).map(function (statenamedIndex) {
+            _this10.districtWiseData = data;
+            _this10.districtWiseDataNew = Object.entries(_this10.districtWiseData).map(function (statenamedIndex) {
               var custmObj = new _data__WEBPACK_IMPORTED_MODULE_1__["districtDataOverall"]();
               custmObj.stateName = statenamedIndex[0];
               custmObj.districtData = statenamedIndex[1].districtData;
@@ -5463,13 +5920,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               return custmObj;
             });
 
-            _this9.districtWiseDataNew.reverse().pop();
+            _this10.districtWiseDataNew.reverse().pop();
 
-            _this9.districtWiseDataNew.reverse();
+            _this10.districtWiseDataNew.reverse();
 
-            _this9.populateFormerDistrict();
+            _this10.populateFormerDistrict();
 
-            _this9.isDistrictReady = true;
+            _this10.isDistrictReady = true;
           });
 
           this.getNews();
@@ -5478,33 +5935,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getNews",
         value: function getNews() {
-          var _this10 = this;
+          var _this11 = this;
 
           this._getdata.getCoronaVirusNews().subscribe(function (data) {
-            _this10.news = data.articles;
-            _this10.filteredNews = _this10.news.filter(function (t) {
+            _this11.news = data.articles;
+            _this11.filteredNews = _this11.news.filter(function (t) {
               return t.source.name === "Hindustan Times" || t.source.name === "The Times of India";
             });
-            _this10.isReady = true;
+            _this11.isReady = true;
           });
         }
       }, {
         key: "getStateCalculationForTotalCases",
         value: function getStateCalculationForTotalCases() {
-          var _this11 = this;
+          var _this12 = this;
 
           this._getdata.getCountryWiseStateDataIndia().subscribe(function (data) {
-            _this11.stateCountry = data.statewise;
-            _this11.lastRefresh = _this11.stateCountry[0].lastupdatedtime;
+            _this12.stateCountry = data.statewise;
+            _this12.lastRefresh = _this12.stateCountry[0].lastupdatedtime;
 
-            _this11.stateCountry.reverse().pop();
+            _this12.stateCountry.reverse().pop();
 
-            _this11.stateCountry.reverse();
+            _this12.stateCountry.reverse();
 
-            _this11.dataSourceMobileState = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](_this11.stateCountry);
-            _this11.isMobileState = true;
-            _this11.chartData = [{
-              data: _this11.stateCountry.map(function (element) {
+            _this12.dataSourceMobileState = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](_this12.stateCountry);
+            _this12.dataSourceDesktopState = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](_this12.stateCountry);
+            _this12.isMobileState = true;
+            _this12.isDesktopState = true;
+            _this12.chartData = [{
+              data: _this12.stateCountry.map(function (element) {
                 return element.confirmed;
               }),
               label: 'Confirmed Cases',
@@ -5520,7 +5979,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               fill: false,
               borderWidth: 3
             }, {
-              data: _this11.stateCountry.map(function (element) {
+              data: _this12.stateCountry.map(function (element) {
                 return element.active;
               }),
               label: 'Active Cases',
@@ -5536,7 +5995,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               fill: false,
               borderWidth: 3
             }, {
-              data: _this11.stateCountry.map(function (element) {
+              data: _this12.stateCountry.map(function (element) {
                 return element.recovered;
               }),
               label: 'Cured Cases',
@@ -5552,7 +6011,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               fill: false,
               borderWidth: 3
             }, {
-              data: _this11.stateCountry.map(function (element) {
+              data: _this12.stateCountry.map(function (element) {
                 return element.deaths;
               }),
               label: 'Deaths',
@@ -5568,10 +6027,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               fill: false,
               borderWidth: 3
             }];
-            _this11.chartLabels = _this11.stateCountry.map(function (element) {
+            _this12.chartLabels = _this12.stateCountry.map(function (element) {
               return element.state;
             });
-            _this11.chartReady = true;
+            _this12.chartReady = true;
+            _this12.chartStateReadyDesktop = false;
           });
         }
       }, {
@@ -5668,7 +6128,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "populateFormerDistrict",
         value: function populateFormerDistrict() {
-          var _this12 = this;
+          var _this13 = this;
 
           this.innerDistrictFormer = this.districtWiseDataNew.map(function (t) {
             return t.districtData;
@@ -5688,7 +6148,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.innerDistrictFinalFormer = [];
           this.innerDistrictNewFormer.forEach(function (element) {
             element.forEach(function (item) {
-              _this12.innerDistrictFinalFormer.push(item);
+              _this13.innerDistrictFinalFormer.push(item);
             });
           });
           this.innerDistrictFinalFormer.sort(function (x, y) {
@@ -5778,9 +6238,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         }
       }, {
+        key: "toggleChartTableState",
+        value: function toggleChartTableState(isChart) {
+          if (isChart === true) {
+            this.chartStateReadyDesktop = false;
+            this.isDesktopState = true;
+            this.isMobileState = true;
+          } else {
+            this.chartStateReadyDesktop = true;
+            this.isDesktopState = false;
+            this.isMobileState = false;
+          }
+        }
+      }, {
         key: "goToState",
         value: function goToState(stateName, checkStatus) {
-          var _this13 = this;
+          var _this14 = this;
 
           this.dropDownLabel = stateName;
 
@@ -5812,7 +6285,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.innerDistrictFinal = [];
           this.innerDistrictNew.forEach(function (element) {
             element.forEach(function (item) {
-              _this13.innerDistrictFinal.push(item);
+              _this14.innerDistrictFinal.push(item);
             });
           });
           this.innerDistrictFinal.sort(function (x, y) {
@@ -5923,7 +6396,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: "applyFilterForState",
         value: function applyFilterForState(event) {
           var filterValue = event.target.value;
-          this.dataSourceMobileState.filter = filterValue.trim().toLowerCase(); // this.dataSourceMobile.filter = filterValue.trim().toLowerCase();
+          this.dataSourceMobileState.filter = filterValue.trim().toLowerCase();
+          this.dataSourceDesktopState.filter = filterValue.trim().toLowerCase(); // this.dataSourceMobile.filter = filterValue.trim().toLowerCase();
         }
       }, {
         key: "openDialog",
@@ -5954,9 +6428,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.sort = _t.first);
         }
       },
-      decls: 9,
-      vars: 8,
-      consts: [[1, "card", "border-2", "state", 2, "width", "90%", "float", "left", "height", "50%", "margin-top", "3vh", "margin-left", "2vh", "background-color", "#19191c"], [2, "width", "100%"], [2, "text-align", "center", "color", "#8a77fc"], [1, "dropdown"], ["id", "searchText", "class", "searchText", "style", "float: right;margin-left: 5px;\nborder-color: #1F1B24; color: white; margin-bottom: 2vh;\nbackground-color:#1F1B24;", "placeholder", "Search", 3, "keyup", 4, "ngIf"], ["id", "tableForMobileState", "class", "example-container mat-elevation-z8", 4, "ngIf"], ["id", "stateChart", "baseChart", "", 1, "chartCanvas", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend"], ["id", "mobileGridView", "class", "card", "style", "width: 98%; \nmargin-top: 75vh;margin-left: 2vh; background-color: #19191c;", 4, "ngIf"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "right", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "margin-bottom", "2vh", "background-color", "#1F1B24", 3, "keyup"], ["id", "tableForMobileState", 1, "example-container", "mat-elevation-z8"], ["matSort", "", "matSortDisableClear", "true", "matSortStart", "asc", 1, "mat-table", 2, "border-radius", "3vh", 3, "dataSource"], ["matColumnDef", "Name", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc;width: 50vh;", "mat-sort-header", "", 4, "matHeaderCellDef"], ["style", "word-wrap: break-word; width: 50vh !important; ", 4, "matCellDef"], ["matColumnDef", "TotalCases", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc ;", "mat-sort-header", "", 4, "matHeaderCellDef"], [3, "color", 4, "matCellDef"], ["matColumnDef", "Cured", "sticky", ""], ["matColumnDef", "Deaths", "sticky", ""], [4, "matHeaderRowDef", "matHeaderRowDefSticky"], [4, "matRowDef", "matRowDefColumns"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc", "width", "50vh"], [2, "word-wrap", "break-word", "width", "50vh !important"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc"], ["src", "../../assets/icons8-up-48.png", 2, "width", "2vh"], [2, "margin-bottom", "1px", "margin-top", "-18px", "margin-left", "16px"], ["id", "mobileGridView", 1, "card", 2, "width", "98%", "margin-top", "75vh", "margin-left", "2vh", "background-color", "#19191c"], [2, "width", "100%", "height", "100", "margin-top", "3%"], ["id", "toggleClass", 2, "text-align", "center", "color", "white"], [2, "color", "white", 3, "ngModel", "click", "ngModelChange"], ["type", "button", "data-toggle", "modal", "data-target", "#exampleModalCenter", 1, "btn", "btn-secondary", "btn-sm", 2, "margin-bottom", "2vh", "margin-left", "2vh", "word-break", "break-all"], ["id", "exampleModalCenter", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-body"], ["data-dismiss", "modal", 1, "dropdown-item", 2, "cursor", "pointer", 3, "click"], ["class", "dropdown-item", "data-dismiss", "modal", "style", "cursor: pointer;", 3, "click", 4, "ngFor", "ngForOf"], ["id", "searchText", "class", "searchText", "style", "float: right;margin-left: 5px;\nborder-color: #1F1B24; color: white;\nbackground-color:#1F1B24;", "placeholder", "Search", 3, "keyup", 4, "ngIf"], ["class", "card border-2", "style", "width: 100%; \n background-color: #19191c;", 4, "ngIf"], ["id", "tableForMobile", "class", "example-container mat-elevation-z8", 4, "ngIf"], ["id", "tableForDesktop", "class", "example-container mat-elevation-z8", "style", "overflow: auto;", 4, "ngIf"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "right", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "background-color", "#1F1B24", 3, "keyup"], [1, "card", "border-2", 2, "width", "100%", "background-color", "#19191c"], ["baseChart", "", 2, "max-width", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend"], ["id", "tableForMobile", 1, "example-container", "mat-elevation-z8"], ["style", "background-color:#1F1B24; color:#bb86fc;", "mat-sort-header", "", 4, "matHeaderCellDef"], ["style", "word-wrap: break-word; ", 4, "matCellDef"], [2, "word-wrap", "break-word"], ["id", "tableForDesktop", 1, "example-container", "mat-elevation-z8", 2, "overflow", "auto"], [4, "matCellDef"], ["matColumnDef", "ConfirmedToday", "sticky", ""], ["matColumnDef", "ActiveCases", "sticky", ""], ["matColumnDef", "CuredToday", "sticky", ""], ["matColumnDef", "DeathsToday", "sticky", ""]],
+      decls: 14,
+      vars: 6,
+      consts: [[1, "card", "border-2", "state", 2, "width", "98%", "float", "left", "height", "50%", "margin-top", "3vh", "margin-left", "2vh", "margin-bottom", "2vh", "background-color", "#19191c"], [2, "width", "100%"], [2, "text-align", "center", "color", "#8a77fc"], ["id", "toggleClass", 2, "text-align", "center", "color", "white"], [2, "color", "white", 3, "ngModel", "click", "ngModelChange"], [1, "dropdown"], ["id", "searchText", "class", "searchText", "style", "float: right;margin-left: 5px;\nborder-color: #1F1B24; color: white; margin-bottom: 2vh;\nbackground-color:#1F1B24;", "placeholder", "Search", 3, "keyup", 4, "ngIf"], ["id", "tableForMobileState", "style", "display: none;", "class", "example-container mat-elevation-z8", 4, "ngIf"], ["id", "tableForDesktopState", "style", "overflow: auto;", "class", "example-container mat-elevation-z8", 4, "ngIf"], ["id", "stateChartForDesktop", "class", "", "style", "width: 100%; \n  background-color: #19191c;", 4, "ngIf"], ["id", "mobileGridView", "class", "card", "style", "width: 98%; \nmargin-top: 75vh;margin-left: 2vh; background-color: #19191c;", 4, "ngIf"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "right", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "margin-bottom", "2vh", "background-color", "#1F1B24", 3, "keyup"], ["id", "tableForMobileState", 1, "example-container", "mat-elevation-z8", 2, "display", "none"], ["matSort", "", "matSortDisableClear", "true", "matSortStart", "asc", 1, "mat-table", 2, "border-radius", "3vh", 3, "dataSource"], ["matColumnDef", "Name", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc;width: 50vh;", "mat-sort-header", "", 4, "matHeaderCellDef"], ["style", "word-wrap: break-word; width: 50vh !important; ", 4, "matCellDef"], ["matColumnDef", "TotalCases", "sticky", ""], ["style", "background-color:#1F1B24; color:#bb86fc ;", "mat-sort-header", "", 4, "matHeaderCellDef"], [3, "color", 4, "matCellDef"], ["matColumnDef", "Cured", "sticky", ""], ["matColumnDef", "Deaths", "sticky", ""], [4, "matHeaderRowDef", "matHeaderRowDefSticky"], [4, "matRowDef", "matRowDefColumns"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc", "width", "50vh"], [2, "word-wrap", "break-word", "width", "50vh !important"], ["mat-sort-header", "", 2, "background-color", "#1F1B24", "color", "#bb86fc"], ["src", "../../assets/icons8-up-48.png", 2, "width", "2vh"], [2, "margin-bottom", "1px", "margin-top", "-18px", "margin-left", "16px"], ["id", "tableForDesktopState", 1, "example-container", "mat-elevation-z8", 2, "overflow", "auto"], ["matColumnDef", "ConfirmedToday", "sticky", ""], ["matColumnDef", "ActiveCases", "sticky", ""], ["matColumnDef", "CuredToday", "sticky", ""], ["matColumnDef", "DeathsToday", "sticky", ""], ["id", "stateChartForDesktop", 1, "", 2, "width", "100%", "background-color", "#19191c"], ["id", "stateChart", "baseChart", "", 1, "chartCanvas", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend"], ["id", "mobileGridView", 1, "card", 2, "width", "98%", "margin-top", "75vh", "margin-left", "2vh", "background-color", "#19191c"], [2, "width", "100%", "height", "100", "margin-top", "3%"], ["type", "button", "data-toggle", "modal", "data-target", "#exampleModalCenter", 1, "btn", "btn-secondary", "btn-sm", 2, "margin-bottom", "2vh", "margin-left", "2vh", "word-break", "break-all"], ["id", "exampleModalCenter", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalCenterTitle", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-dialog-centered"], [1, "modal-content"], [1, "modal-body"], ["data-dismiss", "modal", 1, "dropdown-item", 2, "cursor", "pointer", 3, "click"], ["class", "dropdown-item", "data-dismiss", "modal", "style", "cursor: pointer;", 3, "click", 4, "ngFor", "ngForOf"], ["id", "searchText", "class", "searchText", "style", "float: right;margin-left: 5px;\nborder-color: #1F1B24; color: white;\nbackground-color:#1F1B24;", "placeholder", "Search", 3, "keyup", 4, "ngIf"], ["class", "card border-2", "style", "width: 100%; \n background-color: #19191c;", 4, "ngIf"], ["id", "tableForMobile", "class", "example-container mat-elevation-z8", 4, "ngIf"], ["id", "tableForDesktop", "class", "example-container mat-elevation-z8", "style", "overflow: auto;", 4, "ngIf"], ["id", "searchText", "placeholder", "Search", 1, "searchText", 2, "float", "right", "margin-left", "5px", "border-color", "#1F1B24", "color", "white", "background-color", "#1F1B24", 3, "keyup"], [1, "card", "border-2", 2, "width", "100%", "background-color", "#19191c"], ["baseChart", "", 2, "max-width", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend"], ["id", "tableForMobile", 1, "example-container", "mat-elevation-z8"], ["style", "background-color:#1F1B24; color:#bb86fc;", "mat-sort-header", "", 4, "matHeaderCellDef"], ["style", "word-wrap: break-word; ", 4, "matCellDef"], [2, "word-wrap", "break-word"], ["id", "tableForDesktop", 1, "example-container", "mat-elevation-z8", 2, "overflow", "auto"], [4, "matCellDef"]],
       template: function NewsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -5969,25 +6443,49 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NewsComponent_input_5_Template, 1, 0, "input", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Show Data ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-slide-toggle", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NewsComponent_Template_mat_slide_toggle_click_6_listener() {
+            return ctx.toggleChartTableState(ctx.isCheckedState);
+          })("ngModelChange", function NewsComponent_Template_mat_slide_toggle_ngModelChange_6_listener($event) {
+            return ctx.isCheckedState = $event;
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Show Chart ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, NewsComponent_input_9_Template, 1, 0, "input", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, NewsComponent_div_6_Template, 17, 4, "div", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NewsComponent_div_10_Template, 17, 4, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "canvas", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NewsComponent_div_11_Template, 29, 4, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, NewsComponent_div_12_Template, 2, 5, "div", 9);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NewsComponent_div_8_Template, 23, 7, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NewsComponent_div_13_Template, 23, 7, "div", 10);
         }
 
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.isCheckedState);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isMobileState);
 
@@ -5997,16 +6495,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx.chartData)("labels", ctx.chartLabels)("options", ctx.chartOptions)("legend", true);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isDesktopState);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.chartStateReadyDesktop);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.chartReady);
         }
       },
-      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], ng2_charts__WEBPACK_IMPORTED_MODULE_7__["BaseChartDirective"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTable"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSort"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCell"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSortHeader"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRow"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_8__["MatSlideToggle"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__["NgModel"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_10__["MatDivider"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"]],
-      pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DecimalPipe"]],
-      styles: ["[_ngcontent-%COMP%]::-webkit-scrollbar {\n    width: 5px;\n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-track {\n    background: #19191c; \n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n    background: #8a77fc; \n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n    background: #555; \n  }\n  \n  .mat-row[_ngcontent-%COMP%]:nth-child(even){\n    background-color:#121212;\n    color:#cf6679 ;\n    }\n  \n  .mat-cell[_ngcontent-%COMP%] {\n        color: white;\n    }\n  \n  .mat-column-Name[_ngcontent-%COMP%] {\n      word-wrap: break-word !important;\n      white-space: unset !important;\n      flex: 0 0 40% !important;\n      width: 40% !important;\n      overflow-wrap: break-word;\n      word-wrap: break-word;\n    \n      word-break: break-word;\n    \n      -ms-hyphens: auto;\n      -webkit-hyphens: auto;\n      hyphens: auto;\n    }\n  \n  .mat-row[_ngcontent-%COMP%]:nth-child(odd){\n    background-color:#212121;\n    color:#cf6679 ;\n    }\n  \n  .mat-cell[_ngcontent-%COMP%], .mat-header-cell[_ngcontent-%COMP%] {\n     \n      word-wrap: break-word;\n    \n    }\n  \n  .matt[_ngcontent-%COMP%]{\n      color: white;\n      background-color: #212121;      \n      margin-top:2px;\n      margin-left: 5px;\n      margin-right: 5px;\n      height: 20%;\n  }\n  \n  .example-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction:column;\n    height: 70vh;   \n    position: relative;    \n    \n    margin-left: 1vh;\n    margin-right: 1vh;\n    margin-bottom:10px;\n  }\n  \n  #tableForMobile[_ngcontent-%COMP%]{\n    display: none;\n  }\n  \n  #tableForMobileState[_ngcontent-%COMP%]{\n    display: none;\n  }\n  \n  @media only screen and (max-width: 768px) {\n    \n    [class=\"card border-2 news\"][_ngcontent-%COMP%]{\n      display: none;\n      \n    }\n    [class=\"example-container\"][_ngcontent-%COMP%]{\n      overflow:scroll;\n\n    }\n\n    [class=\"card-body news\"][_ngcontent-%COMP%]{\n      display: none;\n    }\n\n    [id=\"stateChart\"][_ngcontent-%COMP%]{\n      display: none;\n      height: 0%;\n      width: 0%;\n    }\n\n    [class=\"card border-2 state\"][_ngcontent-%COMP%]{\n      width: 98% !important;\n      height: 80% !important;\n     \n      margin-left: 0.5vh !important;\n     \n      margin-bottom: 1vh;\n  }\n  \n    [class=\"dropdown-menu\"][_ngcontent-%COMP%]{\n      display: none;\n      position: fixed;\n      height: 100vh;\n      width: 100vw;\n      background: rgba(0, 0, 0, 0.5);\n      opacity:0.5;\n    }\n\n    [class=\"card border-2\"][_ngcontent-%COMP%]{\n      width: 95% !important;\n      height: 50% !important;\n      overflow-x: scroll;\n      margin-left: 1vh;\n      margin-right: 1vh;\n      margin-bottom: 1vh;\n  }\n  [class=\"chartCanvas\"][_ngcontent-%COMP%]{\n    \n    overflow-x: auto;\n  }\n  [id=\"tableForMobile\"][_ngcontent-%COMP%]{\n    overflow-y: scroll !important;\n    display: inline !important;\n  } \n\n  [id=\"tableForMobileState\"][_ngcontent-%COMP%]{\n    overflow-y: scroll !important;\n    display: inline !important;\n  } \n  [id=\"newsId\"][_ngcontent-%COMP%]{\n    display: none !important;\n  }\n  [id=\"toggleClass\"][_ngcontent-%COMP%]{\n    display: none;\n  }\n  [id=\"mobileGridView\"][_ngcontent-%COMP%]{\n    width: 97% !important;\n    margin-top: 67vh !important;\n    margin-left: 0.5vh !important;    \n  }\n  [id=\"tableForDesktop\"][_ngcontent-%COMP%]{\n    display: none;\n  }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3cy9uZXdzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0VBQ1o7O0VBRUEsVUFBVTs7RUFDVjtJQUNFLG1CQUFtQjtFQUNyQjs7RUFFQSxXQUFXOztFQUNYO0lBQ0UsbUJBQW1CO0VBQ3JCOztFQUVBLG9CQUFvQjs7RUFDcEI7SUFDRSxnQkFBZ0I7RUFDbEI7O0VBSUE7SUFDRSx3QkFBd0I7SUFDeEIsY0FBYztJQUNkOztFQUVBO1FBQ0ksWUFBWTtJQUNoQjs7RUFFQTtNQUNFLGdDQUFnQztNQUNoQyw2QkFBNkI7TUFDN0Isd0JBQXdCO01BQ3hCLHFCQUFxQjtNQUNyQix5QkFBeUI7TUFDekIscUJBQXFCOztNQUVyQixzQkFBc0I7O01BRXRCLGlCQUFpQjtNQUVqQixxQkFBcUI7TUFDckIsYUFBYTtJQUNmOztFQUtKO0lBQ0ksd0JBQXdCO0lBQ3hCLGNBQWM7SUFDZDs7RUFFQTs7TUFFRSxxQkFBcUI7O0lBRXZCOztFQUVBO01BQ0UsWUFBWTtNQUNaLHlCQUF5QjtNQUN6QixjQUFjO01BQ2QsZ0JBQWdCO01BQ2hCLGlCQUFpQjtNQUNqQixXQUFXO0VBQ2Y7O0VBRUE7SUFDRSxhQUFhO0lBQ2IscUJBQXFCO0lBQ3JCLFlBQVk7SUFDWixrQkFBa0I7SUFDbEI7c0JBQ2tCO0lBQ2xCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0VBQ3BCOztFQUVBO0lBQ0UsYUFBYTtFQUNmOztFQUVBO0lBQ0UsYUFBYTtFQUNmOztFQUVBO0lBQ0UsdUJBQXVCO0lBQ3ZCO01BQ0UsYUFBYTs7SUFFZjtJQUNBO01BQ0UsZUFBZTs7SUFFakI7O0lBRUE7TUFDRSxhQUFhO0lBQ2Y7O0lBRUE7TUFDRSxhQUFhO01BQ2IsVUFBVTtNQUNWLFNBQVM7SUFDWDs7SUFFQTtNQUNFLHFCQUFxQjtNQUNyQixzQkFBc0I7O01BRXRCLDZCQUE2Qjs7TUFFN0Isa0JBQWtCO0VBQ3RCOztJQUVFO01BQ0UsYUFBYTtNQUNiLGVBQWU7TUFDZixhQUFhO01BQ2IsWUFBWTtNQUNaLDhCQUE4QjtNQUM5QixXQUFXO0lBQ2I7O0lBRUE7TUFDRSxxQkFBcUI7TUFDckIsc0JBQXNCO01BQ3RCLGtCQUFrQjtNQUNsQixnQkFBZ0I7TUFDaEIsaUJBQWlCO01BQ2pCLGtCQUFrQjtFQUN0QjtFQUNBOztJQUVFLGdCQUFnQjtFQUNsQjtFQUNBO0lBQ0UsNkJBQTZCO0lBQzdCLDBCQUEwQjtFQUM1Qjs7RUFFQTtJQUNFLDZCQUE2QjtJQUM3QiwwQkFBMEI7RUFDNUI7RUFDQTtJQUNFLHdCQUF3QjtFQUMxQjtFQUNBO0lBQ0UsYUFBYTtFQUNmO0VBQ0E7SUFDRSxxQkFBcUI7SUFDckIsMkJBQTJCO0lBQzNCLDZCQUE2QjtFQUMvQjtFQUNBO0lBQ0UsYUFBYTtFQUNmO0VBQ0EiLCJmaWxlIjoic3JjL2FwcC9uZXdzL25ld3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICAgIHdpZHRoOiA1cHg7XG4gIH1cbiAgXG4gIC8qIFRyYWNrICovXG4gIDo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xuICAgIGJhY2tncm91bmQ6ICMxOTE5MWM7IFxuICB9XG4gICBcbiAgLyogSGFuZGxlICovXG4gIDo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xuICAgIGJhY2tncm91bmQ6ICM4YTc3ZmM7IFxuICB9XG4gIFxuICAvKiBIYW5kbGUgb24gaG92ZXIgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7XG4gICAgYmFja2dyb3VuZDogIzU1NTsgXG4gIH1cblxuICBcblxuICAubWF0LXJvdzpudGgtY2hpbGQoZXZlbil7XG4gICAgYmFja2dyb3VuZC1jb2xvcjojMTIxMjEyO1xuICAgIGNvbG9yOiNjZjY2NzkgO1xuICAgIH1cblxuICAgIC5tYXQtY2VsbCB7XG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICB9XG5cbiAgICAubWF0LWNvbHVtbi1OYW1lIHtcbiAgICAgIHdvcmQtd3JhcDogYnJlYWstd29yZCAhaW1wb3J0YW50O1xuICAgICAgd2hpdGUtc3BhY2U6IHVuc2V0ICFpbXBvcnRhbnQ7XG4gICAgICBmbGV4OiAwIDAgNDAlICFpbXBvcnRhbnQ7XG4gICAgICB3aWR0aDogNDAlICFpbXBvcnRhbnQ7XG4gICAgICBvdmVyZmxvdy13cmFwOiBicmVhay13b3JkO1xuICAgICAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICAgIFxuICAgICAgd29yZC1icmVhazogYnJlYWstd29yZDtcbiAgICBcbiAgICAgIC1tcy1oeXBoZW5zOiBhdXRvO1xuICAgICAgLW1vei1oeXBoZW5zOiBhdXRvO1xuICAgICAgLXdlYmtpdC1oeXBoZW5zOiBhdXRvO1xuICAgICAgaHlwaGVuczogYXV0bztcbiAgICB9XG5cbiAgICBcblxuICAgIFxuLm1hdC1yb3c6bnRoLWNoaWxkKG9kZCl7XG4gICAgYmFja2dyb3VuZC1jb2xvcjojMjEyMTIxO1xuICAgIGNvbG9yOiNjZjY2NzkgO1xuICAgIH1cblxuICAgIC5tYXQtY2VsbCwgLm1hdC1oZWFkZXItY2VsbCB7XG4gICAgIFxuICAgICAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICAgIFxuICAgIH1cblxuICAgIC5tYXR0e1xuICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzIxMjEyMTsgICAgICBcbiAgICAgIG1hcmdpbi10b3A6MnB4O1xuICAgICAgbWFyZ2luLWxlZnQ6IDVweDtcbiAgICAgIG1hcmdpbi1yaWdodDogNXB4O1xuICAgICAgaGVpZ2h0OiAyMCU7XG4gIH1cblxuICAuZXhhbXBsZS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246Y29sdW1uO1xuICAgIGhlaWdodDogNzB2aDsgICBcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7ICAgIFxuICAgIC8qIG1heC1oZWlnaHQ6IDUwcHg7XG4gICAgbWluLXdpZHRoOiAzMHB4OyAqL1xuICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgbWFyZ2luLXJpZ2h0OiAxdmg7XG4gICAgbWFyZ2luLWJvdHRvbToxMHB4O1xuICB9XG5cbiAgI3RhYmxlRm9yTW9iaWxle1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cblxuICAjdGFibGVGb3JNb2JpbGVTdGF0ZXtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG5cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjhweCkge1xuICAgIC8qIEZvciBtb2JpbGUgcGhvbmVzOiAqL1xuICAgIFtjbGFzcz1cImNhcmQgYm9yZGVyLTIgbmV3c1wiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICBcbiAgICB9XG4gICAgW2NsYXNzPVwiZXhhbXBsZS1jb250YWluZXJcIl17XG4gICAgICBvdmVyZmxvdzpzY3JvbGw7XG5cbiAgICB9XG5cbiAgICBbY2xhc3M9XCJjYXJkLWJvZHkgbmV3c1wiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuXG4gICAgW2lkPVwic3RhdGVDaGFydFwiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICBoZWlnaHQ6IDAlO1xuICAgICAgd2lkdGg6IDAlO1xuICAgIH1cblxuICAgIFtjbGFzcz1cImNhcmQgYm9yZGVyLTIgc3RhdGVcIl17XG4gICAgICB3aWR0aDogOTglICFpbXBvcnRhbnQ7XG4gICAgICBoZWlnaHQ6IDgwJSAhaW1wb3J0YW50O1xuICAgICBcbiAgICAgIG1hcmdpbi1sZWZ0OiAwLjV2aCAhaW1wb3J0YW50O1xuICAgICBcbiAgICAgIG1hcmdpbi1ib3R0b206IDF2aDtcbiAgfVxuICBcbiAgICBbY2xhc3M9XCJkcm9wZG93bi1tZW51XCJde1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICAgIGhlaWdodDogMTAwdmg7XG4gICAgICB3aWR0aDogMTAwdnc7XG4gICAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG4gICAgICBvcGFjaXR5OjAuNTtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJjYXJkIGJvcmRlci0yXCJde1xuICAgICAgd2lkdGg6IDk1JSAhaW1wb3J0YW50O1xuICAgICAgaGVpZ2h0OiA1MCUgIWltcG9ydGFudDtcbiAgICAgIG92ZXJmbG93LXg6IHNjcm9sbDtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDF2aDtcbiAgICAgIG1hcmdpbi1ib3R0b206IDF2aDtcbiAgfVxuICBbY2xhc3M9XCJjaGFydENhbnZhc1wiXXtcbiAgICBcbiAgICBvdmVyZmxvdy14OiBhdXRvO1xuICB9XG4gIFtpZD1cInRhYmxlRm9yTW9iaWxlXCJde1xuICAgIG92ZXJmbG93LXk6IHNjcm9sbCAhaW1wb3J0YW50O1xuICAgIGRpc3BsYXk6IGlubGluZSAhaW1wb3J0YW50O1xuICB9IFxuXG4gIFtpZD1cInRhYmxlRm9yTW9iaWxlU3RhdGVcIl17XG4gICAgb3ZlcmZsb3cteTogc2Nyb2xsICFpbXBvcnRhbnQ7XG4gICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XG4gIH0gXG4gIFtpZD1cIm5ld3NJZFwiXXtcbiAgICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7XG4gIH1cbiAgW2lkPVwidG9nZ2xlQ2xhc3NcIl17XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICBbaWQ9XCJtb2JpbGVHcmlkVmlld1wiXXtcbiAgICB3aWR0aDogOTclICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXRvcDogNjd2aCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1sZWZ0OiAwLjV2aCAhaW1wb3J0YW50OyAgICBcbiAgfVxuICBbaWQ9XCJ0YWJsZUZvckRlc2t0b3BcIl17XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICB9Il19 */"]
+      directives: [_angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_6__["MatSlideToggle"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["NgIf"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTable"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSort"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderCell"], _angular_material_sort__WEBPACK_IMPORTED_MODULE_3__["MatSortHeader"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatRow"], ng2_charts__WEBPACK_IMPORTED_MODULE_9__["BaseChartDirective"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_10__["MatDivider"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["NgForOf"]],
+      pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__["DecimalPipe"]],
+      styles: ["[_ngcontent-%COMP%]::-webkit-scrollbar {\n    width: 5px;\n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-track {\n    background: #19191c; \n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n    background: #8a77fc; \n  }\n  \n  \n  \n  [_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n    background: #555; \n  }\n  \n  .mat-row[_ngcontent-%COMP%]:nth-child(even){\n    background-color:#121212;\n    color:#cf6679 ;\n    }\n  \n  .mat-cell[_ngcontent-%COMP%] {\n        color: white;\n    }\n  \n  .mat-column-Name[_ngcontent-%COMP%] {\n      word-wrap: break-word !important;\n      white-space: unset !important;\n      flex: 0 0 40% !important;\n      width: 40% !important;\n      overflow-wrap: break-word;\n      word-wrap: break-word;\n    \n      word-break: break-word;\n    \n      -ms-hyphens: auto;\n      -webkit-hyphens: auto;\n      hyphens: auto;\n    }\n  \n  .mat-row[_ngcontent-%COMP%]:nth-child(odd){\n    background-color:#212121;\n    color:#cf6679 ;\n    }\n  \n  .mat-cell[_ngcontent-%COMP%], .mat-header-cell[_ngcontent-%COMP%] {\n     \n      word-wrap: break-word;\n    \n    }\n  \n  .matt[_ngcontent-%COMP%]{\n      color: white;\n      background-color: #212121;      \n      margin-top:2px;\n      margin-left: 5px;\n      margin-right: 5px;\n      height: 20%;\n  }\n  \n  .example-container[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction:column;\n    height: 70vh;   \n    position: relative;    \n    \n    margin-left: 1vh;\n    margin-right: 1vh;\n    margin-bottom:10px;\n  }\n  \n  #tableForMobile[_ngcontent-%COMP%]{\n    display: none;\n  }\n  \n  #tableForMobileState[_ngcontent-%COMP%]{\n    display: none;\n  }\n  \n  @media only screen and (max-width: 768px) {\n    \n    [class=\"card border-2 news\"][_ngcontent-%COMP%]{\n      display: none;\n      \n    }\n    [class=\"example-container\"][_ngcontent-%COMP%]{\n      overflow:scroll;\n\n    }\n    [id=\"stateChartForDesktop\"][_ngcontent-%COMP%]{\n      display: none !important;\n    }\n\n    [id=\"tableForDesktopState\"][_ngcontent-%COMP%]{\n      display: none !important;\n    }\n\n    [class=\"card-body news\"][_ngcontent-%COMP%]{\n      display: none;\n    }\n\n    [id=\"stateChart\"][_ngcontent-%COMP%]{\n      display: none;\n      height: 0%;\n      width: 0%;\n    }\n\n    [class=\"card border-2 state\"][_ngcontent-%COMP%]{\n      width: 98% !important;\n      height: 80% !important;\n     \n      margin-left: 0.5vh !important;\n     \n      margin-bottom: 1vh;\n  }\n  \n    [class=\"dropdown-menu\"][_ngcontent-%COMP%]{\n      display: none;\n      position: fixed;\n      height: 100vh;\n      width: 100vw;\n      background: rgba(0, 0, 0, 0.5);\n      opacity:0.5;\n    }\n\n    [class=\"card border-2\"][_ngcontent-%COMP%]{\n      width: 95% !important;\n      height: 50% !important;\n      overflow-x: scroll;\n      margin-left: 1vh;\n      margin-right: 1vh;\n      margin-bottom: 1vh;\n  }\n  [class=\"chartCanvas\"][_ngcontent-%COMP%]{\n    \n    overflow-x: auto;\n  }\n  [id=\"tableForMobile\"][_ngcontent-%COMP%]{\n    overflow-y: scroll !important;\n    display: inline !important;\n  } \n\n  [id=\"tableForMobileState\"][_ngcontent-%COMP%]{\n    overflow-y: scroll !important;\n    display: inline !important;\n  } \n  [id=\"newsId\"][_ngcontent-%COMP%]{\n    display: none !important;\n  }\n  [id=\"toggleClass\"][_ngcontent-%COMP%]{\n    display: none;\n  }\n  [id=\"mobileGridView\"][_ngcontent-%COMP%]{\n    width: 97% !important;\n    margin-top: 67vh !important;\n    margin-left: 0.5vh !important;    \n  }\n  [id=\"tableForDesktop\"][_ngcontent-%COMP%]{\n    display: none;\n  }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3cy9uZXdzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0VBQ1o7O0VBRUEsVUFBVTs7RUFDVjtJQUNFLG1CQUFtQjtFQUNyQjs7RUFFQSxXQUFXOztFQUNYO0lBQ0UsbUJBQW1CO0VBQ3JCOztFQUVBLG9CQUFvQjs7RUFDcEI7SUFDRSxnQkFBZ0I7RUFDbEI7O0VBSUE7SUFDRSx3QkFBd0I7SUFDeEIsY0FBYztJQUNkOztFQUVBO1FBQ0ksWUFBWTtJQUNoQjs7RUFFQTtNQUNFLGdDQUFnQztNQUNoQyw2QkFBNkI7TUFDN0Isd0JBQXdCO01BQ3hCLHFCQUFxQjtNQUNyQix5QkFBeUI7TUFDekIscUJBQXFCOztNQUVyQixzQkFBc0I7O01BRXRCLGlCQUFpQjtNQUVqQixxQkFBcUI7TUFDckIsYUFBYTtJQUNmOztFQUtKO0lBQ0ksd0JBQXdCO0lBQ3hCLGNBQWM7SUFDZDs7RUFFQTs7TUFFRSxxQkFBcUI7O0lBRXZCOztFQUVBO01BQ0UsWUFBWTtNQUNaLHlCQUF5QjtNQUN6QixjQUFjO01BQ2QsZ0JBQWdCO01BQ2hCLGlCQUFpQjtNQUNqQixXQUFXO0VBQ2Y7O0VBRUE7SUFDRSxhQUFhO0lBQ2IscUJBQXFCO0lBQ3JCLFlBQVk7SUFDWixrQkFBa0I7SUFDbEI7c0JBQ2tCO0lBQ2xCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIsa0JBQWtCO0VBQ3BCOztFQUVBO0lBQ0UsYUFBYTtFQUNmOztFQUVBO0lBQ0UsYUFBYTtFQUNmOztFQUVBO0lBQ0UsdUJBQXVCO0lBQ3ZCO01BQ0UsYUFBYTs7SUFFZjtJQUNBO01BQ0UsZUFBZTs7SUFFakI7SUFDQTtNQUNFLHdCQUF3QjtJQUMxQjs7SUFFQTtNQUNFLHdCQUF3QjtJQUMxQjs7SUFFQTtNQUNFLGFBQWE7SUFDZjs7SUFFQTtNQUNFLGFBQWE7TUFDYixVQUFVO01BQ1YsU0FBUztJQUNYOztJQUVBO01BQ0UscUJBQXFCO01BQ3JCLHNCQUFzQjs7TUFFdEIsNkJBQTZCOztNQUU3QixrQkFBa0I7RUFDdEI7O0lBRUU7TUFDRSxhQUFhO01BQ2IsZUFBZTtNQUNmLGFBQWE7TUFDYixZQUFZO01BQ1osOEJBQThCO01BQzlCLFdBQVc7SUFDYjs7SUFFQTtNQUNFLHFCQUFxQjtNQUNyQixzQkFBc0I7TUFDdEIsa0JBQWtCO01BQ2xCLGdCQUFnQjtNQUNoQixpQkFBaUI7TUFDakIsa0JBQWtCO0VBQ3RCO0VBQ0E7O0lBRUUsZ0JBQWdCO0VBQ2xCO0VBQ0E7SUFDRSw2QkFBNkI7SUFDN0IsMEJBQTBCO0VBQzVCOztFQUVBO0lBQ0UsNkJBQTZCO0lBQzdCLDBCQUEwQjtFQUM1QjtFQUNBO0lBQ0Usd0JBQXdCO0VBQzFCO0VBQ0E7SUFDRSxhQUFhO0VBQ2Y7RUFDQTtJQUNFLHFCQUFxQjtJQUNyQiwyQkFBMkI7SUFDM0IsNkJBQTZCO0VBQy9CO0VBQ0E7SUFDRSxhQUFhO0VBQ2Y7RUFDQSIsImZpbGUiOiJzcmMvYXBwL25ld3MvbmV3cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjotd2Via2l0LXNjcm9sbGJhciB7XG4gICAgd2lkdGg6IDVweDtcbiAgfVxuICBcbiAgLyogVHJhY2sgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XG4gICAgYmFja2dyb3VuZDogIzE5MTkxYzsgXG4gIH1cbiAgIFxuICAvKiBIYW5kbGUgKi9cbiAgOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gICAgYmFja2dyb3VuZDogIzhhNzdmYzsgXG4gIH1cbiAgXG4gIC8qIEhhbmRsZSBvbiBob3ZlciAqL1xuICA6Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kOiAjNTU1OyBcbiAgfVxuXG4gIFxuXG4gIC5tYXQtcm93Om50aC1jaGlsZChldmVuKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMxMjEyMTI7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsIHtcbiAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgIH1cblxuICAgIC5tYXQtY29sdW1uLU5hbWUge1xuICAgICAgd29yZC13cmFwOiBicmVhay13b3JkICFpbXBvcnRhbnQ7XG4gICAgICB3aGl0ZS1zcGFjZTogdW5zZXQgIWltcG9ydGFudDtcbiAgICAgIGZsZXg6IDAgMCA0MCUgIWltcG9ydGFudDtcbiAgICAgIHdpZHRoOiA0MCUgIWltcG9ydGFudDtcbiAgICAgIG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgXG4gICAgICB3b3JkLWJyZWFrOiBicmVhay13b3JkO1xuICAgIFxuICAgICAgLW1zLWh5cGhlbnM6IGF1dG87XG4gICAgICAtbW96LWh5cGhlbnM6IGF1dG87XG4gICAgICAtd2Via2l0LWh5cGhlbnM6IGF1dG87XG4gICAgICBoeXBoZW5zOiBhdXRvO1xuICAgIH1cblxuICAgIFxuXG4gICAgXG4ubWF0LXJvdzpudGgtY2hpbGQob2RkKXtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMyMTIxMjE7XG4gICAgY29sb3I6I2NmNjY3OSA7XG4gICAgfVxuXG4gICAgLm1hdC1jZWxsLCAubWF0LWhlYWRlci1jZWxsIHtcbiAgICAgXG4gICAgICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgXG4gICAgfVxuXG4gICAgLm1hdHR7XG4gICAgICBjb2xvcjogd2hpdGU7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjEyMTIxOyAgICAgIFxuICAgICAgbWFyZ2luLXRvcDoycHg7XG4gICAgICBtYXJnaW4tbGVmdDogNXB4O1xuICAgICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG4gICAgICBoZWlnaHQ6IDIwJTtcbiAgfVxuXG4gIC5leGFtcGxlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjpjb2x1bW47XG4gICAgaGVpZ2h0OiA3MHZoOyAgIFxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsgICAgXG4gICAgLyogbWF4LWhlaWdodDogNTBweDtcbiAgICBtaW4td2lkdGg6IDMwcHg7ICovXG4gICAgbWFyZ2luLWxlZnQ6IDF2aDtcbiAgICBtYXJnaW4tcmlnaHQ6IDF2aDtcbiAgICBtYXJnaW4tYm90dG9tOjEwcHg7XG4gIH1cblxuICAjdGFibGVGb3JNb2JpbGV7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuXG4gICN0YWJsZUZvck1vYmlsZVN0YXRle1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cblxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gICAgLyogRm9yIG1vYmlsZSBwaG9uZXM6ICovXG4gICAgW2NsYXNzPVwiY2FyZCBib3JkZXItMiBuZXdzXCJde1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIFxuICAgIH1cbiAgICBbY2xhc3M9XCJleGFtcGxlLWNvbnRhaW5lclwiXXtcbiAgICAgIG92ZXJmbG93OnNjcm9sbDtcblxuICAgIH1cbiAgICBbaWQ9XCJzdGF0ZUNoYXJ0Rm9yRGVza3RvcFwiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbaWQ9XCJ0YWJsZUZvckRlc2t0b3BTdGF0ZVwiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJjYXJkLWJvZHkgbmV3c1wiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuXG4gICAgW2lkPVwic3RhdGVDaGFydFwiXXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICBoZWlnaHQ6IDAlO1xuICAgICAgd2lkdGg6IDAlO1xuICAgIH1cblxuICAgIFtjbGFzcz1cImNhcmQgYm9yZGVyLTIgc3RhdGVcIl17XG4gICAgICB3aWR0aDogOTglICFpbXBvcnRhbnQ7XG4gICAgICBoZWlnaHQ6IDgwJSAhaW1wb3J0YW50O1xuICAgICBcbiAgICAgIG1hcmdpbi1sZWZ0OiAwLjV2aCAhaW1wb3J0YW50O1xuICAgICBcbiAgICAgIG1hcmdpbi1ib3R0b206IDF2aDtcbiAgfVxuICBcbiAgICBbY2xhc3M9XCJkcm9wZG93bi1tZW51XCJde1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICAgIGhlaWdodDogMTAwdmg7XG4gICAgICB3aWR0aDogMTAwdnc7XG4gICAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG4gICAgICBvcGFjaXR5OjAuNTtcbiAgICB9XG5cbiAgICBbY2xhc3M9XCJjYXJkIGJvcmRlci0yXCJde1xuICAgICAgd2lkdGg6IDk1JSAhaW1wb3J0YW50O1xuICAgICAgaGVpZ2h0OiA1MCUgIWltcG9ydGFudDtcbiAgICAgIG92ZXJmbG93LXg6IHNjcm9sbDtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxdmg7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDF2aDtcbiAgICAgIG1hcmdpbi1ib3R0b206IDF2aDtcbiAgfVxuICBbY2xhc3M9XCJjaGFydENhbnZhc1wiXXtcbiAgICBcbiAgICBvdmVyZmxvdy14OiBhdXRvO1xuICB9XG4gIFtpZD1cInRhYmxlRm9yTW9iaWxlXCJde1xuICAgIG92ZXJmbG93LXk6IHNjcm9sbCAhaW1wb3J0YW50O1xuICAgIGRpc3BsYXk6IGlubGluZSAhaW1wb3J0YW50O1xuICB9IFxuXG4gIFtpZD1cInRhYmxlRm9yTW9iaWxlU3RhdGVcIl17XG4gICAgb3ZlcmZsb3cteTogc2Nyb2xsICFpbXBvcnRhbnQ7XG4gICAgZGlzcGxheTogaW5saW5lICFpbXBvcnRhbnQ7XG4gIH0gXG4gIFtpZD1cIm5ld3NJZFwiXXtcbiAgICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7XG4gIH1cbiAgW2lkPVwidG9nZ2xlQ2xhc3NcIl17XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICBbaWQ9XCJtb2JpbGVHcmlkVmlld1wiXXtcbiAgICB3aWR0aDogOTclICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luLXRvcDogNjd2aCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbi1sZWZ0OiAwLjV2aCAhaW1wb3J0YW50OyAgICBcbiAgfVxuICBbaWQ9XCJ0YWJsZUZvckRlc2t0b3BcIl17XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICB9Il19 */"]
     });
     /*@__PURE__*/
 
@@ -6092,37 +6594,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getStateCalculationForTotalCases",
         value: function getStateCalculationForTotalCases() {
-          var _this14 = this;
+          var _this15 = this;
 
           this._getdata.getCountryWiseStateDataIndia().subscribe(function (data) {
-            _this14.stateCountry = data.statewise;
-            console.log(_this14.stateCountry.map(function (element) {
+            _this15.stateCountry = data.statewise;
+            console.log(_this15.stateCountry.map(function (element) {
               return element.confirmed;
             }));
-            console.log(_this14.stateCountry.map(function (element) {
+            console.log(_this15.stateCountry.map(function (element) {
               return element.state;
             }));
 
-            _this14.stateCountry.reverse().pop();
+            _this15.stateCountry.reverse().pop();
 
-            _this14.stateCountry.reverse();
+            _this15.stateCountry.reverse();
 
             chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"].defaults.global.responsive = true;
-            _this14.Linechart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"]('canvas', {
+            _this15.Linechart = new chart_js__WEBPACK_IMPORTED_MODULE_1__["Chart"]('canvas', {
               type: 'line',
               data: {
-                labels: _this14.stateCountry.map(function (element) {
+                labels: _this15.stateCountry.map(function (element) {
                   return element.state;
                 }),
                 datasets: [{
-                  data: _this14.stateCountry.map(function (element) {
+                  data: _this15.stateCountry.map(function (element) {
                     return element.confirmed;
                   }),
                   borderColor: '#e96082',
                   backgroundColor: '#70323f',
                   label: 'Total Cases'
                 }, {
-                  data: _this14.stateCountry.map(function (element) {
+                  data: _this15.stateCountry.map(function (element) {
                     return element.active;
                   }),
                   borderColor: '#3cb371',
