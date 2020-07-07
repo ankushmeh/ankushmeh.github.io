@@ -1127,47 +1127,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function ChartsComponent_div_1_span_2_Template(rf, ctx) {
+    function ChartsComponent_div_1_div_8_Template(rf, ctx) {
       if (rf & 1) {
-        var _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 24);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 25);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChartsComponent_div_1_span_2_Template_span_click_0_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r10);
-
-          var newd_r8 = ctx.$implicit;
-
-          var ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r9.openLink(newd_r8.url);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 25);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 26);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var newd_r8 = ctx.$implicit;
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", newd_r8.title, "");
-      }
-    }
-
-    function ChartsComponent_div_1_div_5_Template(rf, ctx) {
-      if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 28);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 29);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 27);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
@@ -1175,13 +1143,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 28);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h4", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "h4", 29);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
 
@@ -1195,44 +1163,96 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var card_r11 = ctx.$implicit;
+        var card_r7 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", card_r11.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", card_r7.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 5, card_r11.cardNumber));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](5, 5, card_r7.cardNumber));
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](card_r11.title);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](card_r7.title);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", card_r11.title, " Today : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 7, card_r11.deltaNumber), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", card_r7.title, " Today : ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 7, card_r7.deltaNumber), "");
       }
     }
 
-    function ChartsComponent_div_1_mat_tab_group_8_Template(rf, ctx) {
+    function ChartsComponent_div_1_mat_tab_group_11_Template(rf, ctx) {
       if (rf & 1) {
-        var _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab-group", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-tab-group", 30);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-tab", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-tab", 31);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 32);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "span");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "canvas", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "canvas", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_4_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_11_Template_canvas_chartClick_4_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
+
+          var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r8.onChartClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 34);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChartsComponent_div_1_mat_tab_group_11_Template_mat_tab_click_5_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
+
+          var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r10.getCuredTimeLine();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 35);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "canvas", 36);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_11_Template_canvas_chartClick_8_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
+
+          var ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r11.onChartClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 37);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 38);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "canvas", 36);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_11_Template_canvas_chartClick_12_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r9);
 
           var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
@@ -1243,55 +1263,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ChartsComponent_div_1_mat_tab_group_8_Template_mat_tab_click_5_listener() {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
+      if (rf & 2) {
+        var ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-          var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
-          return ctx_r14.getCuredTimeLine();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataTimeLine)("labels", ctx_r3.chartLabelsTimeLine)("options", ctx_r3.chartTimeLineOptions)("legend", false);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataCuredTimeLine)("labels", ctx_r3.chartLabelsCuredTimeLine)("options", ctx_r3.chartCuredTimeLineOptions)("legend", false);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r3.chartDataDeathsTimeLine)("labels", ctx_r3.chartLabelsDeathsTimeLine)("options", ctx_r3.chartDeathsTimeLineOptions)("legend", false);
+      }
+    }
+
+    function ChartsComponent_div_1_div_12_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 39);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Confirmed Cases Timeline");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 32);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 41);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_12_Template_canvas_chartClick_5_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14);
+
+          var ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r13.onChartClick($event);
         });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 38);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "canvas", 39);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_8_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
-
-          var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r15.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 40);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 41);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "canvas", 39);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_mat_tab_group_8_Template_canvas_chartClick_12_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r13);
-
-          var ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r16.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1301,29 +1319,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataTimeLine)("labels", ctx_r4.chartLabelsTimeLine)("options", ctx_r4.chartTimeLineOptions)("legend", false);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataCuredTimeLine)("labels", ctx_r4.chartLabelsCuredTimeLine)("options", ctx_r4.chartCuredTimeLineOptions)("legend", false);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r4.chartDataDeathsTimeLine)("labels", ctx_r4.chartLabelsDeathsTimeLine)("options", ctx_r4.chartDeathsTimeLineOptions)("legend", false);
       }
     }
 
-    function ChartsComponent_div_1_div_9_Template(rf, ctx) {
+    function ChartsComponent_div_1_div_13_Template(rf, ctx) {
       if (rf & 1) {
-        var _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        var _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 42);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 40);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Confirmed Cases Timeline");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Cured Cases Timeline");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1333,9 +1343,51 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 43);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_9_Template_canvas_chartClick_5_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_13_Template_canvas_chartClick_5_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r16);
+
+          var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r15.onChartClick($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r5.chartDataCuredTimeLine)("labels", ctx_r5.chartLabelsCuredTimeLine)("options", ctx_r5.chartCuredTimeLineOptions)("legend", false);
+      }
+    }
+
+    function ChartsComponent_div_1_div_14_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 44);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Deaths Timeline");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 38);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 43);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_14_Template_canvas_chartClick_5_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r18);
 
           var ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -1349,95 +1401,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (rf & 2) {
-        var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r5.chartDataTimeLine)("labels", ctx_r5.chartLabelsTimeLine)("options", ctx_r5.chartTimeLineOptions)("legend", false);
-      }
-    }
-
-    function ChartsComponent_div_1_div_10_Template(rf, ctx) {
-      if (rf & 1) {
-        var _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 45);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Cured Cases Timeline");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 38);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 46);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_10_Template_canvas_chartClick_5_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r20);
-
-          var ctx_r19 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r19.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
         var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r6.chartDataCuredTimeLine)("labels", ctx_r6.chartLabelsCuredTimeLine)("options", ctx_r6.chartCuredTimeLineOptions)("legend", false);
-      }
-    }
-
-    function ChartsComponent_div_1_div_11_Template(rf, ctx) {
-      if (rf & 1) {
-        var _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 47);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 43);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Deaths Timeline");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 41);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "span");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "canvas", 46);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("chartClick", function ChartsComponent_div_1_div_11_Template_canvas_chartClick_5_listener($event) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r22);
-
-          var ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-          return ctx_r21.onChartClick($event);
-        });
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-      }
-
-      if (rf & 2) {
-        var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r7.chartDataDeathsTimeLine)("labels", ctx_r7.chartLabelsDeathsTimeLine)("options", ctx_r7.chartDeathsTimeLineOptions)("legend", false);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("chartType", "line")("datasets", ctx_r6.chartDataDeathsTimeLine)("labels", ctx_r6.chartLabelsDeathsTimeLine)("options", ctx_r6.chartDeathsTimeLineOptions)("legend", false);
       }
     }
 
@@ -1447,39 +1415,47 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "marquee", 13);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ChartsComponent_div_1_span_2_Template, 3, 1, "span", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " For any technical enquiry with respect to COVID-19, you may kindly email on ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "u");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "technicalquery.covid19@gov.in");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 15);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ChartsComponent_div_1_div_5_Template, 11, 9, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " | Aarogya Setu IVRS 1921 ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 14);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 15);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ChartsComponent_div_1_mat_tab_group_8_Template, 13, 15, "mat-tab-group", 20);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ChartsComponent_div_1_div_9_Template, 6, 5, "div", 21);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ChartsComponent_div_1_div_10_Template, 6, 5, "div", 22);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, ChartsComponent_div_1_div_11_Template, 6, 5, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ChartsComponent_div_1_div_8_Template, 11, 9, "div", 16);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "app-news");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 17);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "marquee", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 18);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, ChartsComponent_div_1_mat_tab_group_11_Template, 13, 15, "mat-tab-group", 19);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ChartsComponent_div_1_div_12_Template, 6, 5, "div", 20);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, ChartsComponent_div_1_div_13_Template, 6, 5, "div", 21);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, ChartsComponent_div_1_div_14_Template, 6, 5, "div", 22);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "app-news");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "marquee", 23);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " For any technical enquiry with respect to COVID-19, you may kindly email on technicalquery.covid19@gov.in | Aarogya Setu IVRS 1921 ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1489,11 +1465,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       if (rf & 2) {
         var ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.filteredNews);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.cards);
 
@@ -1512,10 +1484,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r1.chartReadyDeathsTimeLine);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Last Data Refresh : ", ctx_r1.refreshdate, " IST");
       }
     }
 
@@ -2093,12 +2061,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-charts"]],
       decls: 2,
       vars: 2,
-      consts: [["class", "loaderClass", "style", "margin-top: 30vh;", 4, "ngIf"], [4, "ngIf"], [1, "loaderClass", 2, "margin-top", "30vh"], [1, "cssload-container"], [1, "cssload-circle-1"], [1, "cssload-circle-2"], [1, "cssload-circle-3"], [1, "cssload-circle-4"], [1, "cssload-circle-5"], [1, "cssload-circle-6"], [1, "cssload-circle-7"], [1, "cssload-circle-8"], [2, "color", "white", "text-align", "center"], ["id", "hoverToStop", "onmouseover", "this.stop();", "onmouseout", "this.start();", "width", "100%", "direction", "left", 2, "color", "white"], ["style", "cursor: pointer;", 3, "click", 4, "ngFor", "ngForOf"], [1, "divChart", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between"], ["src", "../../assets/2731265.png", 1, "imageClass", 2, "width", "11%", "max-height", "23vh", "margin-top", "25px", "margin-left", "16px"], ["id", "chartPageCards", "class", "card border-0 cardsDiv", "style", "margin: 5vh; border-radius: 1vh;", 4, "ngFor", "ngForOf"], [1, "mainDiv", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between", "width", "100%"], [1, "tabClassForMobile", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh", "display", "none"], ["mat-align-tabs", "center", "style", "width: 100%; margin-bottom:1vh; margin-top: 1vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine border-0", "style", "width: 32%; border-style: solid; \n    background-color:#19191c ;\nborder-radius: 1vh; margin-left: 2vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%;border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; ", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%; border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; margin-right: 2vh; ", 4, "ngIf"], ["width", "100%", "direction", "left", 2, "color", "white"], [2, "cursor", "pointer", 3, "click"], ["src", "../../assets/icons8-dot-48.png", 2, "width", "4vh"], ["id", "chartPageCards", 1, "card", "border-0", "cardsDiv", 2, "margin", "5vh", "border-radius", "1vh"], [1, "card-body", 2, "background-color", "#19191c"], ["alt", "Card image cap", 2, "float", "right", "height", "70px", 3, "src"], [1, "card-title", 2, "color", "white"], [1, "card-text", 2, "color", "white"], [1, "card-text", 2, "color", "#989271"], ["mat-align-tabs", "center", 2, "width", "100%", "margin-bottom", "1vh", "margin-top", "1vh"], ["label", "Confirmed", 2, "color", "white"], ["id", "chartjs-tooltip", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Cured", 3, "click"], ["id", "chartjs-tooltip-cured", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Deaths"], ["id", "chartjs-tooltip-deaths", 2, "width", "auto", "height", "2vh", "color", "white"], ["id", "hideTimeline", 1, "timeLine", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh"], [2, "text-align", "center", "color", "#8a77fc"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-right", "2vh"]],
+      consts: [["class", "loaderClass", "style", "margin-top: 30vh;", 4, "ngIf"], [4, "ngIf"], [1, "loaderClass", 2, "margin-top", "30vh"], [1, "cssload-container"], [1, "cssload-circle-1"], [1, "cssload-circle-2"], [1, "cssload-circle-3"], [1, "cssload-circle-4"], [1, "cssload-circle-5"], [1, "cssload-circle-6"], [1, "cssload-circle-7"], [1, "cssload-circle-8"], [2, "color", "white", "text-align", "center"], ["onmouseover", "this.stop();", "onmouseout", "this.start();", "width", "100%", "direction", "left", 2, "color", "white"], [1, "divChart", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between"], ["src", "../../assets/2731265.png", 1, "imageClass", 2, "width", "11%", "max-height", "23vh", "margin-top", "25px", "margin-left", "16px"], ["id", "chartPageCards", "class", "card border-0 cardsDiv", "style", "margin: 5vh; border-radius: 1vh;", 4, "ngFor", "ngForOf"], [1, "mainDiv", 2, "display", "flex", "flex-direction", "row", "justify-content", "space-between", "width", "100%"], [1, "tabClassForMobile", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh", "display", "none"], ["mat-align-tabs", "center", "style", "width: 100%; margin-bottom:1vh; margin-top: 1vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine border-0", "style", "width: 32%; border-style: solid; \n    background-color:#19191c ;\nborder-radius: 1vh; margin-left: 2vh;", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%;border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; ", 4, "ngIf"], ["id", "hideTimeline", "class", "timeLine2 border-0", "style", "width: 32%; border-style: solid; background-color:#19191c ;\nborder-radius: 1vh; margin-right: 2vh; ", 4, "ngIf"], ["width", "100%", "direction", "left", 2, "color", "white"], ["id", "chartPageCards", 1, "card", "border-0", "cardsDiv", 2, "margin", "5vh", "border-radius", "1vh"], [1, "card-body", 2, "background-color", "#19191c"], ["alt", "Card image cap", 2, "float", "right", "height", "70px", 3, "src"], [1, "card-title", 2, "color", "white"], [1, "card-text", 2, "color", "white"], [1, "card-text", 2, "color", "#989271"], ["mat-align-tabs", "center", 2, "width", "100%", "margin-bottom", "1vh", "margin-top", "1vh"], ["label", "Confirmed", 2, "color", "white"], ["id", "chartjs-tooltip", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Cured", 3, "click"], ["id", "chartjs-tooltip-cured", 2, "width", "auto", "height", "2vh", "color", "white"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inherit", "margin-top", "2vh", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["label", "Deaths"], ["id", "chartjs-tooltip-deaths", 2, "width", "auto", "height", "2vh", "color", "white"], ["id", "hideTimeline", 1, "timeLine", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-left", "2vh"], [2, "text-align", "center", "color", "#8a77fc"], ["baseChart", "", 1, "canvasChart", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh"], ["baseChart", "", 2, "max-width", "100%", "max-height", "100%", "display", "inline", 3, "chartType", "datasets", "labels", "options", "legend", "chartClick"], ["id", "hideTimeline", 1, "timeLine2", "border-0", 2, "width", "32%", "border-style", "solid", "background-color", "#19191c", "border-radius", "1vh", "margin-right", "2vh"]],
       template: function ChartsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ChartsComponent_div_0_Template, 12, 0, "div", 0);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ChartsComponent_div_1_Template, 15, 7, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ChartsComponent_div_1_Template, 18, 5, "div", 1);
         }
 
         if (rf & 2) {
@@ -2821,7 +2789,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](2, 1, lesson_r22.NewConfirmed));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](2, 1, lesson_r22.TotalConfirmed - lesson_r22.TotalRecovered));
       }
     }
 
@@ -3058,7 +3026,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                       }).reduce(function (acc, value) {
                         return acc + value;
                       }, 0);
+                      console.log(_this8.totalCases);
+                      console.log(_this8.Cured);
                       _this8.activeCases = _this8.totalCases - _this8.Cured;
+                      console.log(_this8.activeCases);
                     });
 
                   case 3:
